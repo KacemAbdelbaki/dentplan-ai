@@ -1,0 +1,1547 @@
+[
+ {
+  "status": "draft",
+  "createdDaysAgo": 0,
+  "updatedDaysAgo": 0,
+  "plan": {
+   "patient": {
+    "name": "Anna Weber",
+    "notes": ""
+   },
+   "stages": [
+    {
+     "id": "s1",
+     "title": "Stage 1 – Diagnostics and Hygiene",
+     "goal": "Initial examination, imaging, and professional hygiene",
+     "intervalBeforeStage": null,
+     "visits": 1,
+     "procedures": [
+      {
+       "id": "p1",
+       "name": "Extended consultation",
+       "teeth": [],
+       "quantity": 1,
+       "priceSource": "list",
+       "priceListId": "restorative-extended-consultation",
+       "unitPrice": 9.36,
+       "discountPercent": 0,
+       "notes": ""
+      },
+      {
+       "id": "p2",
+       "name": "Dental radiograph",
+       "teeth": [],
+       "quantity": 1,
+       "priceSource": "list",
+       "priceListId": "restorative-dental-radiograph",
+       "unitPrice": 4.18,
+       "discountPercent": 0,
+       "notes": "Panoramic X-ray"
+      },
+      {
+       "id": "p3",
+       "name": "Professional hygiene",
+       "teeth": [],
+       "quantity": 1,
+       "priceSource": "list",
+       "priceListId": "periodontics-professional-hygiene",
+       "unitPrice": 41.02,
+       "discountPercent": 0,
+       "notes": "Scaling and polishing"
+      }
+     ]
+    },
+    {
+     "id": "s2",
+     "title": "Stage 2 – Restorative and Endodontics",
+     "goal": "Fillings and root canal treatment",
+     "intervalBeforeStage": {
+      "value": 1,
+      "unit": "weeks"
+     },
+     "visits": 2,
+     "procedures": [
+      {
+       "id": "p4",
+       "name": "Aesthetic restoration",
+       "teeth": [
+        "14"
+       ],
+       "quantity": 1,
+       "priceSource": "list",
+       "priceListId": "restorative-aesthetic-restoration",
+       "unitPrice": 67.7,
+       "discountPercent": 0,
+       "notes": "Composite filling"
+      },
+      {
+       "id": "p5",
+       "name": "Aesthetic restoration",
+       "teeth": [
+        "25"
+       ],
+       "quantity": 1,
+       "priceSource": "list",
+       "priceListId": "restorative-aesthetic-restoration",
+       "unitPrice": 67.7,
+       "discountPercent": 0,
+       "notes": "Composite filling"
+      },
+      {
+       "id": "p6",
+       "name": "Root canal treatment — molars",
+       "teeth": [
+        "36"
+       ],
+       "quantity": 1,
+       "priceSource": "list",
+       "priceListId": "endodontics-root-canal-treatment-molars",
+       "unitPrice": 89.6,
+       "discountPercent": 0,
+       "notes": ""
+      }
+     ]
+    },
+    {
+     "id": "s3",
+     "title": "Stage 3 – Prosthetics",
+     "goal": "Crown placement on tooth 36",
+     "intervalBeforeStage": {
+      "value": 2,
+      "unit": "weeks"
+     },
+     "visits": 1,
+     "procedures": [
+      {
+       "id": "p7",
+       "name": "Zirconia crown (tooth-supported)",
+       "teeth": [
+        "36"
+       ],
+       "quantity": 1,
+       "priceSource": "missing",
+       "priceListId": null,
+       "unitPrice": null,
+       "discountPercent": 0,
+       "notes": "On natural tooth 36"
+      }
+     ]
+    },
+    {
+     "id": "s4",
+     "title": "Stage 4 – Surgery",
+     "goal": "Extraction of hopeless tooth 46",
+     "intervalBeforeStage": {
+      "value": 1,
+      "unit": "weeks"
+     },
+     "visits": 1,
+     "procedures": [
+      {
+       "id": "p8",
+       "name": "Complex tooth extraction with socket suturing and antimicrobial sponge placement",
+       "teeth": [
+        "46"
+       ],
+       "quantity": 1,
+       "priceSource": "list",
+       "priceListId": "surgery-complex-tooth-extraction-with-socket-suturing-and-antimicrob",
+       "unitPrice": 20.51,
+       "discountPercent": 0,
+       "notes": ""
+      }
+     ]
+    },
+    {
+     "id": "s5",
+     "title": "Stage 5 – Implantology",
+     "goal": "Implant placement for tooth 46",
+     "intervalBeforeStage": {
+      "value": 3,
+      "unit": "months"
+     },
+     "visits": 1,
+     "procedures": [
+      {
+       "id": "p9",
+       "name": "Osstem implant placement (Korea)",
+       "teeth": [
+        "46"
+       ],
+       "quantity": 1,
+       "priceSource": "dictated",
+       "priceListId": null,
+       "unitPrice": 900,
+       "discountPercent": 0,
+       "notes": "Implant dictated price"
+      }
+     ]
+    },
+    {
+     "id": "s6",
+     "title": "Stage 6 – Implant Prosthetics",
+     "goal": "Implant crown placement",
+     "intervalBeforeStage": {
+      "value": 3,
+      "unit": "months"
+     },
+     "visits": 1,
+     "procedures": [
+      {
+       "id": "p10",
+       "name": "Zirconia crown on Osstem implant",
+       "teeth": [
+        "46"
+       ],
+       "quantity": 1,
+       "priceSource": "list",
+       "priceListId": "implantology-zirconia-crown-on-osstem-implant",
+       "unitPrice": 360,
+       "discountPercent": 0,
+       "notes": ""
+      }
+     ]
+    },
+    {
+     "id": "s7",
+     "title": "Stage 7 – Maintenance",
+     "goal": "Review and hygiene",
+     "intervalBeforeStage": {
+      "value": 6,
+      "unit": "months"
+     },
+     "visits": 1,
+     "procedures": [
+      {
+       "id": "p11",
+       "name": "Professional hygiene",
+       "teeth": [],
+       "quantity": 1,
+       "priceSource": "list",
+       "priceListId": "periodontics-professional-hygiene",
+       "unitPrice": 41.02,
+       "discountPercent": 0,
+       "notes": "Review and hygiene"
+      }
+     ]
+    }
+   ],
+   "discountPercent": 0,
+   "generalNotes": "",
+   "assumptions": [
+    "Assumed standard zirconia crown for tooth 36, and linked the correct crown price from the list."
+   ]
+  },
+  "questions": [
+   {
+    "id": "q1",
+    "question": "What is the price for the zirconia crown on tooth 36?",
+    "reason": "Price is missing",
+    "suggestedAnswers": []
+   }
+  ],
+  "conversation": [
+   {
+    "role": "dentist",
+    "text": "Patient Anna Weber. Start with an exam and a panoramic x-ray, then scaling and polishing.\nComposite fillings on 14 and 25. Root canal on 36, then a zirconia crown on 36 two weeks later.\nTooth 46 can't be saved: extract it, place an implant three months after the extraction, implant price 900,\nthen the implant crown three months after that. Review and hygiene in six months."
+   },
+   {
+    "role": "agent",
+    "text": "Created the treatment plan for Anna Weber with exam, hygiene, fillings, root canal, crown, extraction, implant, implant crown, and maintenance.\nQuestions I asked:\n1. What is the price for the zirconia crown on tooth 36?"
+   }
+  ]
+ },
+ {
+  "status": "draft",
+  "createdDaysAgo": 1,
+  "updatedDaysAgo": 1,
+  "plan": {
+   "patient": {
+    "name": "Oleh Bondar",
+    "notes": "Military serviceman (-30% discount)"
+   },
+   "stages": [
+    {
+     "id": "s1",
+     "title": "Stage 1 – Implants and Bone Grafting",
+     "goal": "Perform pre-operative hygiene, bone grafting, and place four implants under sedation.",
+     "intervalBeforeStage": null,
+     "visits": 1,
+     "procedures": [
+      {
+       "id": "p1",
+       "name": "Pre-operative professional hygiene",
+       "teeth": [],
+       "quantity": 1,
+       "priceSource": "list",
+       "priceListId": "restorative-pre-operative-professional-hygiene",
+       "unitPrice": 14.34,
+       "discountPercent": 0,
+       "notes": ""
+      },
+      {
+       "id": "p2",
+       "name": "Sterilisation pack",
+       "teeth": [],
+       "quantity": 1,
+       "priceSource": "list",
+       "priceListId": "surgery-sterilisation-pack",
+       "unitPrice": 61.73,
+       "discountPercent": 0,
+       "notes": ""
+      },
+      {
+       "id": "p3",
+       "name": "Sinus lift during implant placement, 2–3 implants",
+       "teeth": [
+        "16",
+        "15"
+       ],
+       "quantity": 1,
+       "priceSource": "list",
+       "priceListId": "implantology-sinus-lift-during-implant-placement-2-3-implants",
+       "unitPrice": 630,
+       "discountPercent": 0,
+       "notes": "Bone grafting in segment 1"
+      },
+      {
+       "id": "p4",
+       "name": "Implant placement",
+       "teeth": [
+        "16",
+        "15",
+        "35",
+        "36"
+       ],
+       "quantity": 4,
+       "priceSource": "missing",
+       "priceListId": null,
+       "unitPrice": null,
+       "discountPercent": 0,
+       "notes": "Implant system to confirm"
+      },
+      {
+       "id": "p5",
+       "name": "Sedation – first hour",
+       "teeth": [],
+       "quantity": 1,
+       "priceSource": "list",
+       "priceListId": "sedation-sedation-first-hour",
+       "unitPrice": 179.2,
+       "discountPercent": 0,
+       "notes": "Duration to confirm"
+      }
+     ]
+    },
+    {
+     "id": "s2",
+     "title": "Stage 2 – Abutments, Grafting and Temporary Crowns",
+     "goal": "Place healing abutments, graft gingiva around each implant, and fit temporary crowns.",
+     "intervalBeforeStage": {
+      "value": 3,
+      "unit": "months"
+     },
+     "visits": null,
+     "procedures": [
+      {
+       "id": "p6",
+       "name": "Healing abutment placement",
+       "teeth": [
+        "16",
+        "15",
+        "35",
+        "36"
+       ],
+       "quantity": 4,
+       "priceSource": "list",
+       "priceListId": "implantology-healing-abutment-placement",
+       "unitPrice": 65,
+       "discountPercent": 0,
+       "notes": "Confirm if 30% discount is separate from serviceman discount"
+      },
+      {
+       "id": "p7",
+       "name": "Gingival (soft-tissue) grafting around an implant",
+       "teeth": [
+        "16",
+        "15",
+        "35",
+        "36"
+       ],
+       "quantity": 4,
+       "priceSource": "list",
+       "priceListId": "implantology-gingival-soft-tissue-grafting-around-an-implant",
+       "unitPrice": 65,
+       "discountPercent": 0,
+       "notes": ""
+      },
+      {
+       "id": "p8",
+       "name": "Temporary crown on implant",
+       "teeth": [
+        "16",
+        "15",
+        "35",
+        "36"
+       ],
+       "quantity": 4,
+       "priceSource": "list",
+       "priceListId": "implant-temporary-crown-on-implant",
+       "unitPrice": 50.97,
+       "discountPercent": 0,
+       "notes": "Placeholder from Implant prosthetics category"
+      }
+     ]
+    }
+   ],
+   "discountPercent": 30,
+   "generalNotes": "Military serviceman 30% discount applied to the whole estimate.",
+   "assumptions": [
+    "Assumed 3 months between Stage 1 implant placement and Stage 2 second-stage surgery and temporary crowns.",
+    "Matched segment 1 bone grafting at 630 EUR to Sinus lift during implant placement, 2–3 implants.",
+    "Applied the 30% military serviceman discount once to the whole estimate and did not double-apply it to healing abutments.",
+    "Used Sedation – first hour as the baseline for sedation in Stage 1.",
+    "Used Temporary crown on implant (50.97 EUR) for all 4 implant sites as a placeholder.",
+    "Permanent implant crowns are not yet included in this two-stage estimate."
+   ]
+  },
+  "questions": [
+   {
+    "id": "q1",
+    "question": "Which implant system will be used for sites 16, 15, 35, and 36?",
+    "reason": "Determines the price for the four implants",
+    "suggestedAnswers": [
+     "Osstem (€460)",
+     "Megagen AnyOne (€470)",
+     "Straumann BLT (€830)",
+     "Nobel (€830)"
+    ]
+   },
+   {
+    "id": "q2",
+    "question": "Does the 630 EUR bone grafting in segment 1 refer to Sinus lift during implant placement (2–3 implants)?",
+    "reason": "Confirms the exact surgical item",
+    "suggestedAnswers": [
+     "Yes, sinus lift during placement (€630)",
+     "No, bone grafting during placement (€520)"
+    ]
+   },
+   {
+    "id": "q3",
+    "question": "Is the 30% discount on the healing abutments the same serviceman discount, or an extra discount on top?",
+    "reason": "Avoids applying the 30% discount twice",
+    "suggestedAnswers": [
+     "Same serviceman 30% discount",
+     "Extra 30% discount on top"
+    ]
+   },
+   {
+    "id": "q4",
+    "question": "How long is sedation expected to take, and should anaesthesiologist support be added?",
+    "reason": "Changes the sedation fee",
+    "suggestedAnswers": [
+     "1 hour, sedation only",
+     "1 hour plus anaesthesiologist support",
+     "2 hours, sedation only",
+     "2 hours plus anaesthesiologist support"
+    ]
+   },
+   {
+    "id": "q5",
+    "question": "Which temporary crown on implant item should be used?",
+    "reason": "Price list has three temporary implant crown options",
+    "suggestedAnswers": [
+     "Implant prosthetics (€50.97)",
+     "Implantology (€51.37)",
+     "Temporary composite crown (€37.04)"
+    ]
+   }
+  ],
+  "conversation": [
+   {
+    "role": "dentist",
+    "text": "\"Calculate a treatment estimate for a military serviceman (-30%).\nStage 1: pre-operative hygiene, use of a sterilisation pack, bone grafting in segment 1\nat the price-list price of 630 EUR. Placement of four implants: sites 16, 15, 35 and 36.\nSedation.\nStage 2: calculate placement of healing abutments with a 30% discount at sites 16, 15, 35\nand 36. After that, also calculate – for the serviceman – gingival grafting around each\nimplant. In stage 2, also add the cost of placing temporary crowns on the implants.\""
+   },
+   {
+    "role": "agent",
+    "text": "Created the two-stage implant estimate with the 30% serviceman discount; please confirm the implant system and a few pricing details.\nQuestions I asked:\n1. Which implant system will be used for sites 16, 15, 35, and 36?\n2. Does the 630 EUR bone grafting in segment 1 refer to Sinus lift during implant placement (2–3 implants)?\n3. Is the 30% discount on the healing abutments the same serviceman discount, or an extra discount on top?\n4. How long is sedation expected to take, and should anaesthesiologist support be added?\n5. Which temporary crown on implant item should be used?"
+   }
+  ]
+ },
+ {
+  "status": "final",
+  "createdDaysAgo": 3,
+  "updatedDaysAgo": 2,
+  "plan": {
+   "patient": {
+    "name": "Halyna Shevchenko",
+    "notes": "Patient from Kherson region, currently wears removable dentures."
+   },
+   "stages": [
+    {
+     "id": "st1",
+     "title": "Stage 1 – Bone Augmentation",
+     "goal": "Perform bone augmentation in segments 1 and 4",
+     "intervalBeforeStage": null,
+     "visits": 1,
+     "procedures": [
+      {
+       "id": "p1",
+       "name": "Bone grafting",
+       "teeth": [],
+       "quantity": 2,
+       "priceSource": "dictated",
+       "priceListId": null,
+       "unitPrice": 1300,
+       "discountPercent": 0,
+       "notes": "Dictated range 1200-1400 EUR per side, set placeholder average."
+      }
+     ]
+    },
+    {
+     "id": "st2",
+     "title": "Stage 2 – Implants",
+     "goal": "Place implants after healing",
+     "intervalBeforeStage": {
+      "value": 5,
+      "unit": "months"
+     },
+     "visits": 1,
+     "procedures": [
+      {
+       "id": "p2",
+       "name": "Megagen AnyOne implant placement",
+       "teeth": [],
+       "quantity": 2,
+       "priceSource": "dictated",
+       "priceListId": null,
+       "unitPrice": 470,
+       "discountPercent": 0,
+       "notes": "Implant price dictated by dentist."
+      },
+      {
+       "id": "p3",
+       "name": "Implant placement",
+       "teeth": [],
+       "quantity": 2,
+       "priceSource": "dictated",
+       "priceListId": null,
+       "unitPrice": 890,
+       "discountPercent": 0,
+       "notes": "Second implant price dictated by dentist."
+      }
+     ]
+    },
+    {
+     "id": "st3",
+     "title": "Stage 3 – Temporaries",
+     "goal": "Provide temporary prosthetics",
+     "intervalBeforeStage": {
+      "value": 3.5,
+      "unit": "months"
+     },
+     "visits": 1,
+     "procedures": [
+      {
+       "id": "p4",
+       "name": "Temporary prosthesis",
+       "teeth": [],
+       "quantity": 1,
+       "priceSource": "manual",
+       "priceListId": null,
+       "unitPrice": 250,
+       "discountPercent": 0,
+       "notes": "Temporary phase."
+      }
+     ]
+    }
+   ],
+   "discountPercent": 0,
+   "generalNotes": "Approximate estimate. Surgery by Dr. R.A. Patient cannot wear removable dentures during healing.",
+   "assumptions": [
+    "Assumed average of 1300 EUR for bone grafting per side based on the 1200-1400 EUR range.",
+    "Assumed 5 months waiting time for implants (midpoint of 4-6 months)."
+   ]
+  },
+  "questions": [],
+  "conversation": [
+   {
+    "role": "dentist",
+    "text": "- No bone in segment 4\n- Bone augmentation needed first\n- Will not be able to wear a removable denture during healing\n- Also prior bone grafting in segment 1\n- Currently wears removable dentures\n- Poland / Kherson region\n- Dr. R.A. will do the surgery\n- 1st visit – 3 days for bone augmentation\n- After 4–6 months: implants – 3 days\n- After 3–4 months: temporaries\n- Doesn't like her current crowns? She said those teeth need to be extracted because they are bad\n- The teeth are in normal condition – they do not need to be extracted\n- Segment 1: possibly lamina (bone shell) technique or sinus lift\n- 2 implants per side, but 3 teeth\n- Also wants restorative (therapeutic) treatment\n- No inflammation\n- Bone grafting 1,200–1,400 EUR per side\n- Implants 470 EUR and 890 EUR\n- Approximate estimate\n- Patient accommodation (rooms)\n- Will need to take it easy for a couple of days\n- Possibly refer for an examination in Poland\n- Switch to zirconia after 1 month or longer"
+   },
+   {
+    "role": "agent",
+    "text": "I created the initial treatment plan with bone augmentation, implants, and temporary stages based on your dictation. Please clarify the specific bone grafting technique for segment 1, the temporary prosthesis pricing, and teeth for restorative treatment.\nQuestions I asked:\n1. Which specific technique or price list item should be used for the bone grafting in segment 1 (e.g., bone shell / lamina technique vs sinus lift)?\n2. What is the specific procedure and price for the temporary prosthetics stage?\n3. Which specific teeth need restorative (therapeutic) treatment?"
+   },
+   {
+    "role": "dentist",
+    "text": "Keep the plan as it is for now; prices as listed."
+   },
+   {
+    "role": "agent",
+    "text": "Understood: the plan is final as shown. No open questions."
+   }
+  ]
+ },
+ {
+  "status": "presented",
+  "createdDaysAgo": 9,
+  "updatedDaysAgo": 6,
+  "plan": {
+   "patient": {
+    "name": "Maria Kowalska",
+    "notes": ""
+   },
+   "stages": [
+    {
+     "id": "s1",
+     "title": "Stage 1 – Initial Treatment and Implants",
+     "goal": "Perform initial hygiene, sinus lift, implant placement, and bone grafting",
+     "intervalBeforeStage": null,
+     "visits": null,
+     "procedures": [
+      {
+       "id": "p1",
+       "name": "Scaling and root planing (SRP), one jaw",
+       "teeth": [],
+       "quantity": 1,
+       "priceSource": "list",
+       "priceListId": "periodontics-scaling-and-root-planing-srp-one-jaw",
+       "unitPrice": 78.05,
+       "discountPercent": 0,
+       "notes": "1 segment"
+      },
+      {
+       "id": "p2",
+       "name": "Pre-operative professional hygiene",
+       "teeth": [],
+       "quantity": 1,
+       "priceSource": "list",
+       "priceListId": "restorative-pre-operative-professional-hygiene",
+       "unitPrice": 14.34,
+       "discountPercent": 0,
+       "notes": "Discount to confirm"
+      },
+      {
+       "id": "p3",
+       "name": "Sinus lift during implant placement, 2–3 implants",
+       "teeth": [],
+       "quantity": 1,
+       "priceSource": "list",
+       "priceListId": "implantology-sinus-lift-during-implant-placement-2-3-implants",
+       "unitPrice": 630,
+       "discountPercent": 0,
+       "notes": ""
+      },
+      {
+       "id": "p4",
+       "name": "Osstem implant placement (Korea)",
+       "teeth": [
+        "45",
+        "35",
+        "37"
+       ],
+       "quantity": 3,
+       "priceSource": "list",
+       "priceListId": "implantology-osstem-implant-placement-korea",
+       "unitPrice": 460,
+       "discountPercent": 0,
+       "notes": "Placeholder brand; system to confirm"
+      },
+      {
+       "id": "p5",
+       "name": "Bone grafting during placement of one implant",
+       "teeth": [],
+       "quantity": 1,
+       "priceSource": "dictated",
+       "priceListId": null,
+       "unitPrice": 0,
+       "discountPercent": 0,
+       "notes": "Free of charge under the Doluchys programme"
+      },
+      {
+       "id": "p6",
+       "name": "Sterilisation pack",
+       "teeth": [],
+       "quantity": 1,
+       "priceSource": "list",
+       "priceListId": "surgery-sterilisation-pack",
+       "unitPrice": 61.73,
+       "discountPercent": 0,
+       "notes": ""
+      }
+     ]
+    },
+    {
+     "id": "s2",
+     "title": "Stage 2 – Abutments and Temporary Crowns",
+     "goal": "Place healing abutments, gingival grafting, scans, and temporary crowns",
+     "intervalBeforeStage": {
+      "value": 3,
+      "unit": "months"
+     },
+     "visits": null,
+     "procedures": [
+      {
+       "id": "p7",
+       "name": "Healing abutment placement",
+       "teeth": [
+        "45",
+        "35",
+        "37"
+       ],
+       "quantity": 3,
+       "priceSource": "list",
+       "priceListId": "implantology-healing-abutment-placement",
+       "unitPrice": 65,
+       "discountPercent": 0,
+       "notes": ""
+      },
+      {
+       "id": "p8",
+       "name": "Gingival (soft-tissue) grafting around an implant",
+       "teeth": [
+        "45",
+        "35",
+        "37"
+       ],
+       "quantity": 3,
+       "priceSource": "list",
+       "priceListId": "implantology-gingival-soft-tissue-grafting-around-an-implant",
+       "unitPrice": 65,
+       "discountPercent": 0,
+       "notes": ""
+      },
+      {
+       "id": "p9",
+       "name": "Local anaesthesia",
+       "teeth": [],
+       "quantity": 3,
+       "priceSource": "list",
+       "priceListId": "restorative-local-anaesthesia",
+       "unitPrice": 4.18,
+       "discountPercent": 0,
+       "notes": ""
+      },
+      {
+       "id": "p10",
+       "name": "Single-use hygiene kit",
+       "teeth": [],
+       "quantity": 1,
+       "priceSource": "list",
+       "priceListId": "restorative-single-use-hygiene-kit",
+       "unitPrice": 3.19,
+       "discountPercent": 0,
+       "notes": ""
+      },
+      {
+       "id": "p11",
+       "name": "Implant scan for crown fabrication",
+       "teeth": [
+        "45",
+        "35",
+        "37"
+       ],
+       "quantity": 3,
+       "priceSource": "list",
+       "priceListId": "implant-implant-scan-for-crown-fabrication",
+       "unitPrice": 10.35,
+       "discountPercent": 0,
+       "notes": "Quantity adjusted to match 3 implants"
+      },
+      {
+       "id": "p12",
+       "name": "Temporary crown on implant",
+       "teeth": [],
+       "quantity": 4,
+       "priceSource": "list",
+       "priceListId": "implantology-temporary-crown-on-implant",
+       "unitPrice": 51.37,
+       "discountPercent": 0,
+       "notes": "Quantity 4 specified in dictation for 3 implants"
+      },
+      {
+       "id": "p13",
+       "name": "Fabrication of a custom model",
+       "teeth": [],
+       "quantity": 1,
+       "priceSource": "list",
+       "priceListId": "implant-fabrication-of-a-custom-model",
+       "unitPrice": 20.51,
+       "discountPercent": 0,
+       "notes": ""
+      },
+      {
+       "id": "p14",
+       "name": "Single-use hygiene kit",
+       "teeth": [],
+       "quantity": 1,
+       "priceSource": "list",
+       "priceListId": "restorative-single-use-hygiene-kit",
+       "unitPrice": 3.19,
+       "discountPercent": 0,
+       "notes": ""
+      }
+     ]
+    },
+    {
+     "id": "s3",
+     "title": "Stage 3 – Additional Implants",
+     "goal": "Place additional implants at sites 15 and 16",
+     "intervalBeforeStage": {
+      "value": 3,
+      "unit": "months"
+     },
+     "visits": null,
+     "procedures": [
+      {
+       "id": "p15",
+       "name": "Pre-operative professional hygiene",
+       "teeth": [],
+       "quantity": 1,
+       "priceSource": "list",
+       "priceListId": "restorative-pre-operative-professional-hygiene",
+       "unitPrice": 14.34,
+       "discountPercent": 0,
+       "notes": "Discount to confirm"
+      },
+      {
+       "id": "p16",
+       "name": "Osstem implant placement (Korea)",
+       "teeth": [
+        "15",
+        "16"
+       ],
+       "quantity": 2,
+       "priceSource": "list",
+       "priceListId": "implantology-osstem-implant-placement-korea",
+       "unitPrice": 460,
+       "discountPercent": 0,
+       "notes": "Placeholder brand; system to confirm"
+      },
+      {
+       "id": "p17",
+       "name": "Sterilisation pack",
+       "teeth": [],
+       "quantity": 1,
+       "priceSource": "list",
+       "priceListId": "surgery-sterilisation-pack",
+       "unitPrice": 61.73,
+       "discountPercent": 0,
+       "notes": ""
+      }
+     ]
+    },
+    {
+     "id": "s4",
+     "title": "Stage 4 – Abutments and Temporaries for 15, 16",
+     "goal": "Place healing abutments and temporary restorations for teeth 15 and 16",
+     "intervalBeforeStage": {
+      "value": 3,
+      "unit": "months"
+     },
+     "visits": null,
+     "procedures": [
+      {
+       "id": "p18",
+       "name": "Healing abutment placement",
+       "teeth": [
+        "15",
+        "16"
+       ],
+       "quantity": 2,
+       "priceSource": "list",
+       "priceListId": "implantology-healing-abutment-placement",
+       "unitPrice": 65,
+       "discountPercent": 0,
+       "notes": ""
+      },
+      {
+       "id": "p19",
+       "name": "Gingival (soft-tissue) grafting around an implant",
+       "teeth": [
+        "15",
+        "16"
+       ],
+       "quantity": 2,
+       "priceSource": "list",
+       "priceListId": "implantology-gingival-soft-tissue-grafting-around-an-implant",
+       "unitPrice": 65,
+       "discountPercent": 0,
+       "notes": ""
+      },
+      {
+       "id": "p20",
+       "name": "Local anaesthesia",
+       "teeth": [],
+       "quantity": 2,
+       "priceSource": "list",
+       "priceListId": "restorative-local-anaesthesia",
+       "unitPrice": 4.18,
+       "discountPercent": 0,
+       "notes": ""
+      },
+      {
+       "id": "p21",
+       "name": "Single-use hygiene kit",
+       "teeth": [],
+       "quantity": 1,
+       "priceSource": "list",
+       "priceListId": "restorative-single-use-hygiene-kit",
+       "unitPrice": 3.19,
+       "discountPercent": 0,
+       "notes": ""
+      },
+      {
+       "id": "p22",
+       "name": "Implant scan for crown fabrication",
+       "teeth": [
+        "15",
+        "16"
+       ],
+       "quantity": 2,
+       "priceSource": "list",
+       "priceListId": "implant-implant-scan-for-crown-fabrication",
+       "unitPrice": 10.35,
+       "discountPercent": 0,
+       "notes": ""
+      },
+      {
+       "id": "p23",
+       "name": "Temporary crown on implant",
+       "teeth": [
+        "15",
+        "16"
+       ],
+       "quantity": 2,
+       "priceSource": "list",
+       "priceListId": "implantology-temporary-crown-on-implant",
+       "unitPrice": 51.37,
+       "discountPercent": 0,
+       "notes": ""
+      },
+      {
+       "id": "p24",
+       "name": "Fabrication of a custom model",
+       "teeth": [],
+       "quantity": 1,
+       "priceSource": "list",
+       "priceListId": "implant-fabrication-of-a-custom-model",
+       "unitPrice": null,
+       "discountPercent": 0,
+       "notes": ""
+      },
+      {
+       "id": "p25",
+       "name": "Single-use hygiene kit",
+       "teeth": [],
+       "quantity": 1,
+       "priceSource": "list",
+       "priceListId": "restorative-single-use-hygiene-kit",
+       "unitPrice": 3.19,
+       "discountPercent": 0,
+       "notes": ""
+      }
+     ]
+    },
+    {
+     "id": "s5",
+     "title": "Stage 5 – Final Prosthetics",
+     "goal": "Deliver final zirconia crowns and seal screw access channels",
+     "intervalBeforeStage": {
+      "value": 3,
+      "unit": "months"
+     },
+     "visits": null,
+     "procedures": [
+      {
+       "id": "p26",
+       "name": "Implant scan for crown fabrication",
+       "teeth": [],
+       "quantity": 5,
+       "priceSource": "list",
+       "priceListId": "implant-implant-scan-for-crown-fabrication",
+       "unitPrice": 10.35,
+       "discountPercent": 0,
+       "notes": "Scan of 5 implants"
+      },
+      {
+       "id": "p27",
+       "name": "Zirconia crown on Osstem implant",
+       "teeth": [],
+       "quantity": 7,
+       "priceSource": "list",
+       "priceListId": "implantology-zirconia-crown-on-osstem-implant",
+       "unitPrice": 360,
+       "discountPercent": 0,
+       "notes": "7 crowns specified for 5 implants; please confirm tooth/implant distribution"
+      },
+      {
+       "id": "p28",
+       "name": "Fabrication of a custom model",
+       "teeth": [],
+       "quantity": 1,
+       "priceSource": "list",
+       "priceListId": "implant-fabrication-of-a-custom-model",
+       "unitPrice": 20.51,
+       "discountPercent": 0,
+       "notes": ""
+      },
+      {
+       "id": "p29",
+       "name": "Single-use hygiene kit",
+       "teeth": [],
+       "quantity": 1,
+       "priceSource": "list",
+       "priceListId": "restorative-single-use-hygiene-kit",
+       "unitPrice": 3.19,
+       "discountPercent": 0,
+       "notes": ""
+      },
+      {
+       "id": "p30",
+       "name": "Sealing the screw access channel in an implant crown",
+       "teeth": [],
+       "quantity": 1,
+       "priceSource": "list",
+       "priceListId": "implantology-sealing-the-screw-access-channel-in-an-implant-crown",
+       "unitPrice": 14.34,
+       "discountPercent": 0,
+       "notes": ""
+      }
+     ]
+    }
+   ],
+   "discountPercent": 0,
+   "generalNotes": "",
+   "assumptions": [
+    "Renumbered stages sequentially as requested; original second Stage 4 treated as Stage 5.",
+    "Assumed Osstem implant system as a placeholder for implants since brand was not specified.",
+    "Assumed standard 3-month waiting intervals between surgical and prosthetic phases."
+   ]
+  },
+  "questions": [],
+  "conversation": [
+   {
+    "role": "dentist",
+    "text": "Stage 1\n- SRP (scaling and root planing), 1 segment\n- Pre-operative hygiene, with discount\n- Sinus lift during implant placement, 2–3 implants\n- Implants at sites 45, 35, 37\n- Bone grafting during implant placement, around one implant – free of charge under the \"Doluchys\" programme\n- 1 sterilisation pack\n- Sedation, 4 h / without sedation\n\nStage 2 – after 3 months\n- Healing abutments on 3 implants + gingival grafting around 3 implants + 3 x local anaesthesia + 1 single-use hygiene kit\n- Scan of 3 implants\n- Temporary crowns on 4 implants + model + single-use hygiene kit\n\nStage 3\n- Pre-operative hygiene, with discount\n- Implants at sites 15, 16\n- 1 sterilisation pack\n\nStage 4\n- Healing abutments on 2 implants + 2 x gingival grafting + 2 x local anaesthesia + 1 single-use hygiene kit\n- Scan of 2 implants\n- Temporary crowns on 2 implants + 1 model + 1 single-use hygiene kit\n\nStage 4 (sic – second \"Stage 4\" in the original)\n- Scan of 5 implants\n- Zirconia crowns on 7 implants + model + single-use hygiene kit\n- Sealing of the screw-access channels in the implant crowns"
+   },
+   {
+    "role": "agent",
+    "text": "I have created the 5-stage treatment plan based on your dictation. Please clarify the implant brand, hygiene discount percentage, crown quantities, and sedation preferences.\nQuestions I asked:\n1. Which implant brand/system should be used for the implants?\n2. What is the discount percentage for the pre-operative hygiene sessions?\n3. You dictated 4 temporary crowns in Stage 2 for 3 implants. Is the quantity correct?\n4. You dictated 7 zirconia crowns for 5 implants in the final stage. Is the quantity correct?\n5. Sedation was mentioned as 'without sedation' or 4 hours. Do you wish to include sedation for Stage 1?"
+   },
+   {
+    "role": "dentist",
+    "text": "Keep the plan as it is for now; prices as listed."
+   },
+   {
+    "role": "agent",
+    "text": "Understood: the plan is final as shown. No open questions."
+   }
+  ]
+ },
+ {
+  "status": "accepted",
+  "createdDaysAgo": 21,
+  "updatedDaysAgo": 15,
+  "plan": {
+   "patient": {
+    "name": "Ivan Petrenko",
+    "notes": ""
+   },
+   "stages": [
+    {
+     "id": "st1",
+     "title": "Stage 1 – Surgery and Sedation",
+     "goal": "Initial surgical phase",
+     "intervalBeforeStage": null,
+     "visits": 1,
+     "procedures": [
+      {
+       "id": "p1",
+       "name": "Pre-operative professional hygiene",
+       "teeth": [],
+       "quantity": 1,
+       "priceSource": "list",
+       "priceListId": "restorative-pre-operative-professional-hygiene",
+       "unitPrice": 14.34,
+       "discountPercent": 0,
+       "notes": "Discount to confirm"
+      },
+      {
+       "id": "p2",
+       "name": "Sinus lift during implant placement, 2–3 implants",
+       "teeth": [],
+       "quantity": 1,
+       "priceSource": "list",
+       "priceListId": "implantology-sinus-lift-during-implant-placement-2-3-implants",
+       "unitPrice": 630,
+       "discountPercent": 0,
+       "notes": ""
+      },
+      {
+       "id": "p3",
+       "name": "Osstem implant placement (Korea)",
+       "teeth": [
+        "15",
+        "35",
+        "36"
+       ],
+       "quantity": 3,
+       "priceSource": "dictated",
+       "priceListId": null,
+       "unitPrice": 0,
+       "discountPercent": 0,
+       "notes": "Free of charge under Doluchys programme. Placeholder implant type used."
+      },
+      {
+       "id": "p4",
+       "name": "Sedation – first hour",
+       "teeth": [],
+       "quantity": 1,
+       "priceSource": "list",
+       "priceListId": "sedation-sedation-first-hour",
+       "unitPrice": 179.2,
+       "discountPercent": 0,
+       "notes": "Contradictory instruction noted; kept as placeholder."
+      }
+     ]
+    },
+    {
+     "id": "st2",
+     "title": "Stage 2 – Abutments and Additional Implants",
+     "goal": "Second surgical and restorative phase",
+     "intervalBeforeStage": {
+      "value": 3,
+      "unit": "months"
+     },
+     "visits": 1,
+     "procedures": [
+      {
+       "id": "p5",
+       "name": "Healing abutment placement",
+       "teeth": [],
+       "quantity": 3,
+       "priceSource": "list",
+       "priceListId": "implantology-healing-abutment-placement",
+       "unitPrice": 65,
+       "discountPercent": 0,
+       "notes": ""
+      },
+      {
+       "id": "p6",
+       "name": "Gingival (soft-tissue) grafting around an implant",
+       "teeth": [],
+       "quantity": 3,
+       "priceSource": "list",
+       "priceListId": "implantology-gingival-soft-tissue-grafting-around-an-implant",
+       "unitPrice": 65,
+       "discountPercent": 0,
+       "notes": ""
+      },
+      {
+       "id": "p7",
+       "name": "Osstem implant placement (Korea)",
+       "teeth": [
+        "16",
+        "17"
+       ],
+       "quantity": 2,
+       "priceSource": "list",
+       "priceListId": "implantology-osstem-implant-placement-korea",
+       "unitPrice": 460,
+       "discountPercent": 0,
+       "notes": "Placeholder implant type used."
+      },
+      {
+       "id": "p8",
+       "name": "Sterilisation pack",
+       "teeth": [],
+       "quantity": 1,
+       "priceSource": "list",
+       "priceListId": "surgery-sterilisation-pack",
+       "unitPrice": 61.73,
+       "discountPercent": 0,
+       "notes": ""
+      },
+      {
+       "id": "p9",
+       "name": "Implant scan for crown fabrication",
+       "teeth": [],
+       "quantity": 3,
+       "priceSource": "list",
+       "priceListId": "implant-implant-scan-for-crown-fabrication",
+       "unitPrice": 10.35,
+       "discountPercent": 0,
+       "notes": ""
+      },
+      {
+       "id": "p10",
+       "name": "Temporary crown on implant",
+       "teeth": [],
+       "quantity": 4,
+       "priceSource": "list",
+       "priceListId": "implant-temporary-crown-on-implant",
+       "unitPrice": 50.97,
+       "discountPercent": 0,
+       "notes": ""
+      },
+      {
+       "id": "p11",
+       "name": "Fabrication of a custom model",
+       "teeth": [],
+       "quantity": 1,
+       "priceSource": "list",
+       "priceListId": "implant-fabrication-of-a-custom-model",
+       "unitPrice": 20.51,
+       "discountPercent": 0,
+       "notes": ""
+      },
+      {
+       "id": "p12",
+       "name": "Single-use hygiene kit",
+       "teeth": [],
+       "quantity": 1,
+       "priceSource": "list",
+       "priceListId": "restorative-single-use-hygiene-kit",
+       "unitPrice": 3.19,
+       "discountPercent": 0,
+       "notes": ""
+      }
+     ]
+    },
+    {
+     "id": "st3",
+     "title": "Stage 3 – Secondary Healing and Restorations",
+     "goal": "Third phase restorative work",
+     "intervalBeforeStage": {
+      "value": 3,
+      "unit": "months"
+     },
+     "visits": 1,
+     "procedures": [
+      {
+       "id": "p13",
+       "name": "Healing abutment placement",
+       "teeth": [],
+       "quantity": 2,
+       "priceSource": "list",
+       "priceListId": "implantology-healing-abutment-placement",
+       "unitPrice": 65,
+       "discountPercent": 0,
+       "notes": ""
+      },
+      {
+       "id": "p14",
+       "name": "Gingival (soft-tissue) grafting around an implant",
+       "teeth": [],
+       "quantity": 2,
+       "priceSource": "list",
+       "priceListId": "implantology-gingival-soft-tissue-grafting-around-an-implant",
+       "unitPrice": 65,
+       "discountPercent": 0,
+       "notes": ""
+      },
+      {
+       "id": "p15",
+       "name": "Local anaesthesia",
+       "teeth": [],
+       "quantity": 2,
+       "priceSource": "list",
+       "priceListId": "restorative-local-anaesthesia",
+       "unitPrice": 4.18,
+       "discountPercent": 0,
+       "notes": ""
+      },
+      {
+       "id": "p16",
+       "name": "Single-use hygiene kit",
+       "teeth": [],
+       "quantity": 1,
+       "priceSource": "list",
+       "priceListId": "restorative-single-use-hygiene-kit",
+       "unitPrice": 3.19,
+       "discountPercent": 0,
+       "notes": ""
+      },
+      {
+       "id": "p17",
+       "name": "Implant scan for crown fabrication",
+       "teeth": [],
+       "quantity": 2,
+       "priceSource": "list",
+       "priceListId": "implant-implant-scan-for-crown-fabrication",
+       "unitPrice": 10.35,
+       "discountPercent": 0,
+       "notes": ""
+      },
+      {
+       "id": "p18",
+       "name": "Temporary crown on implant",
+       "teeth": [],
+       "quantity": 2,
+       "priceSource": "list",
+       "priceListId": "implant-temporary-crown-on-implant",
+       "unitPrice": 50.97,
+       "discountPercent": 0,
+       "notes": ""
+      },
+      {
+       "id": "p19",
+       "name": "Fabrication of a custom model",
+       "teeth": [],
+       "quantity": 1,
+       "priceSource": "list",
+       "priceListId": "implant-fabrication-of-a-custom-model",
+       "unitPrice": 20.51,
+       "discountPercent": 0,
+       "notes": ""
+      },
+      {
+       "id": "p20",
+       "name": "Single-use hygiene kit",
+       "teeth": [],
+       "quantity": 1,
+       "priceSource": "list",
+       "priceListId": "restorative-single-use-hygiene-kit",
+       "unitPrice": 3.19,
+       "discountPercent": 0,
+       "notes": ""
+      }
+     ]
+    },
+    {
+     "id": "st4",
+     "title": "Stage 4 – Final Prosthetics",
+     "goal": "Final prosthetic phase",
+     "intervalBeforeStage": {
+      "value": 3,
+      "unit": "months"
+     },
+     "visits": 1,
+     "procedures": [
+      {
+       "id": "p21",
+       "name": "Implant scan for crown fabrication",
+       "teeth": [],
+       "quantity": 5,
+       "priceSource": "list",
+       "priceListId": "implant-implant-scan-for-crown-fabrication",
+       "unitPrice": 10.35,
+       "discountPercent": 0,
+       "notes": ""
+      },
+      {
+       "id": "p22",
+       "name": "Zirconia crown on Osstem implant",
+       "teeth": [],
+       "quantity": 6,
+       "priceSource": "list",
+       "priceListId": "implantology-zirconia-crown-on-osstem-implant",
+       "unitPrice": 360,
+       "discountPercent": 0,
+       "notes": "Placeholder implant brand used"
+      },
+      {
+       "id": "p23",
+       "name": "Fabrication of a custom model",
+       "teeth": [],
+       "quantity": 1,
+       "priceSource": "list",
+       "priceListId": "implant-fabrication-of-a-custom-model",
+       "unitPrice": 20.51,
+       "discountPercent": 0,
+       "notes": ""
+      },
+      {
+       "id": "p24",
+       "name": "Single-use hygiene kit",
+       "teeth": [],
+       "quantity": 1,
+       "priceSource": "list",
+       "priceListId": "restorative-single-use-hygiene-kit",
+       "unitPrice": 3.19,
+       "discountPercent": 0,
+       "notes": ""
+      },
+      {
+       "id": "p25",
+       "name": "Sealing the screw access channel in an implant crown",
+       "teeth": [],
+       "quantity": 1,
+       "priceSource": "list",
+       "priceListId": "implantology-sealing-the-screw-access-channel-in-an-implant-crown",
+       "unitPrice": 14.34,
+       "discountPercent": 0,
+       "notes": ""
+      }
+     ]
+    }
+   ],
+   "discountPercent": 0,
+   "generalNotes": "",
+   "assumptions": [
+    "Implant brand defaulted to Osstem where not specified.",
+    "Standard 3-month waiting intervals assumed between surgical and prosthetic stages."
+   ]
+  },
+  "questions": [],
+  "conversation": [
+   {
+    "role": "dentist",
+    "text": "Stage 1\n- Pre-operative hygiene, with discount\n- Sinus lift during implant placement, 2–3 implants\n- Implants at sites 15, 35, 36 – free of charge under the \"Doluchys\" programme\n- Sedation, 4 h / without sedation\n\nStage 2\n- Healing abutments on 3 implants + gingival grafting around 3 implants\n- Placement of 2 implants at sites 16 and 17\n- 1 sterilisation pack\n- Scan of 3 implants\n- Temporary crowns on 4 implants + model + single-use hygiene kit\n\nStage 3\n- Healing abutments on 2 implants + 2 x gingival grafting + 2 x local anaesthesia + 1 single-use hygiene kit\n- Scan of 2 implants\n- Temporary crowns on 2 implants + 1 model + 1 single-use hygiene kit\n\nStage 4\n- Scan of 5 implants\n- Zirconia crowns on 6 implants + model + single-use hygiene kit\n- Sealing of the screw-access channels in the implant crowns"
+   },
+   {
+    "role": "agent",
+    "text": "Created the 4-stage treatment plan based on your dictation. I need a few clarifications regarding the discount percentage, sedation requirements, and implant brand.\nQuestions I asked:\n1. What percentage is the discount for pre-operative hygiene?\n2. Will sedation be used in Stage 1, and for how many hours?\n3. Which implant brand should be used for the implants in Stage 1 and Stage 4?"
+   },
+   {
+    "role": "dentist",
+    "text": "Keep the plan as it is for now; prices as listed."
+   },
+   {
+    "role": "agent",
+    "text": "Understood: the plan is final as shown. No open questions."
+   }
+  ]
+ },
+ {
+  "status": "declined",
+  "createdDaysAgo": 34,
+  "updatedDaysAgo": 28,
+  "plan": {
+   "patient": {
+    "name": "Taras Melnyk",
+    "notes": "Patient plays the saxophone as a hobby and agrees not to play for six months if necessary."
+   },
+   "stages": [
+    {
+     "id": "st1",
+     "title": "Stage 1 – Extractions and Implants",
+     "goal": "Extract anterior teeth and place two implants with cover screws",
+     "intervalBeforeStage": null,
+     "visits": 1,
+     "procedures": [
+      {
+       "id": "p1",
+       "name": "Conventional tooth extraction with socket suturing and antimicrobial sponge placement",
+       "teeth": [
+        "12",
+        "22"
+       ],
+       "quantity": 2,
+       "priceSource": "list",
+       "priceListId": "surgery-conventional-tooth-extraction-with-socket-suturing-and-antim",
+       "unitPrice": 16.53,
+       "discountPercent": 0,
+       "notes": "Extracted for implant placement"
+      },
+      {
+       "id": "p2",
+       "name": "Straumann BLT implant placement (Switzerland)",
+       "teeth": [
+        "12",
+        "22"
+       ],
+       "quantity": 2,
+       "priceSource": "dictated",
+       "priceListId": null,
+       "unitPrice": 750,
+       "discountPercent": 0,
+       "notes": "Submerged, cover screws; dictated price overrides list. Discount to confirm with Dr. R.A."
+      }
+     ]
+    },
+    {
+     "id": "st2",
+     "title": "Stage 2 – Prosthetics",
+     "goal": "Provide temporary and final zirconia crowns on implants",
+     "intervalBeforeStage": {
+      "value": 3,
+      "unit": "months"
+     },
+     "visits": 2,
+     "procedures": [
+      {
+       "id": "p3",
+       "name": "Temporary crown on implant",
+       "teeth": [
+        "12",
+        "22"
+       ],
+       "quantity": 2,
+       "priceSource": "list",
+       "priceListId": "implant-temporary-crown-on-implant",
+       "unitPrice": null,
+       "discountPercent": 0,
+       "notes": "Temporary restorations"
+      },
+      {
+       "id": "p4",
+       "name": "Zirconia crown on Straumann implant",
+       "teeth": [
+        "12",
+        "22"
+       ],
+       "quantity": 2,
+       "priceSource": "dictated",
+       "priceListId": null,
+       "unitPrice": 500,
+       "discountPercent": 0,
+       "notes": "Final crowns, lab technician: Mariana"
+      }
+     ]
+    },
+    {
+     "id": "st3",
+     "title": "Stage 3 – Restorative",
+     "goal": "Reshape lower tooth for edge-to-edge bite",
+     "intervalBeforeStage": null,
+     "visits": 1,
+     "procedures": [
+      {
+       "id": "p5",
+       "name": "Reshaping of tooth 43",
+       "teeth": [
+        "43"
+       ],
+       "quantity": 1,
+       "priceSource": "manual",
+       "priceListId": null,
+       "unitPrice": 25,
+       "discountPercent": 0,
+       "notes": "Reshape and grind tooth 43 for edge-to-edge bite"
+      }
+     ]
+    }
+   ],
+   "discountPercent": 0,
+   "generalNotes": "Lab technician: Mariana. Aim for edge-to-edge bite.",
+   "assumptions": [
+    "Extracted teeth 12 and 22 specifically for the two planned implants at sites 12 and 22.",
+    "Implants priced at 750 EUR each as dictated, overriding the general Straumann list price.",
+    "Crowns priced at 500 EUR each as dictated.",
+    "Implant discount mentioned by the dentist is set to 0% pending confirmation with Dr. R.A."
+   ]
+  },
+  "questions": [],
+  "conversation": [
+   {
+    "role": "dentist",
+    "text": "- Patient plays the saxophone (hobby)\n- Agrees not to play for six months if necessary\n- Extract the 4 front teeth and place 2 or 3 implants\n- Straumann implants with zirconia crowns\n- 2 implants, submerged (cover screws), temporaries\n- 890 EUR per implant, 500 EUR per crown\n- Under load the implant neck may crack if we use Korean implants\n- We will give a discount on the implants (confirm with Dr. R.A.)\n- Implants at sites 22 and 12\n- Possibly reshape (grind) the lower tooth – 43\n- Aim for an edge-to-edge bite\n- Implants at 750 EUR each\n- Lab technician: Mariana\n- Calculate the full estimate"
+   },
+   {
+    "role": "agent",
+    "text": "I created a treatment plan with extractions and Straumann implant placement at sites 12 and 22, followed by temporaries and zirconia crowns, and reshaping of tooth 43. I need the discount percentage for the implants, the price for the temporary crowns, and the specific procedure for reshaping tooth 43.\nQuestions I asked:\n1. What is the discount percentage for the implants to confirm with Dr. R.A.?\n2. What is the price for the temporary crowns on implants?\n3. Which procedure should be used for reshaping/grinding tooth 43?"
+   },
+   {
+    "role": "dentist",
+    "text": "Keep the plan as it is for now; prices as listed."
+   },
+   {
+    "role": "agent",
+    "text": "Understood: the plan is final as shown. No open questions."
+   }
+  ]
+ }
+]

@@ -1,0 +1,25 @@
+# Secrets: never send them to the build context
+.env
+.env.*
+!.env.example
+
+# Local data, outputs and dependencies
+node_modules
+dist
+data
+test-output
+sample-plan.pdf
+provided resources
+
+# Not needed in the image
+.git
+.github
+.gitignore
+.dockerignore
+Dockerfile
+docker-compose.yml
+docs
+scripts
+*.md
+voice-test.scripts
+**/*.test.ts

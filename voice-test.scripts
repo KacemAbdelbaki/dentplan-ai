@@ -1,0 +1,41 @@
+# DentPlan voice test scripts
+# Play each script into the microphone with a text-to-speech app, one at a time:
+# click "Dictate", play the script, press "Send", and wait for the assistant to answer
+# before playing the next one. The patient is fictional.
+
+=== SCRIPT 1 - First dictation ===
+# Tests: stages, intervals, list prices, a dictated price, an item discount.
+# The crown material on 36 is left open on purpose, so the assistant should ask about it.
+
+New patient, Daniel Novak. Stage one: start with a consultation, a panoramic x-ray and professional hygiene.
+Then fillings on teeth fourteen and twenty-five.
+Root canal treatment on tooth thirty-six, and two weeks later a crown on thirty-six.
+Tooth forty-six cannot be saved, extract it.
+Three months after the extraction, place an Osstem implant on forty-six, implant price eight hundred and fifty euros.
+Three months after the implant, a zirconia crown on the implant on forty-six.
+Give thirty percent off the hygiene.
+
+=== SCRIPT 2 - Answers ===
+# Answers the likely questions (crown material and price on 36).
+# If the assistant asked something else, answer that instead.
+
+The crown on thirty-six is zirconia, price three hundred and eighty euros.
+Two visits for the root canal stage.
+
+=== SCRIPT 3 - A change, then Undo ===
+# Tests: highlighted changes ("new" / "updated" tags) and the plan-wide discount.
+# Afterwards click "Undo": the plan goes back and this text returns to the box.
+
+Also add a check-up and hygiene six months after the last stage.
+The patient is a teacher, give ten percent off the whole plan.
+
+=== SCRIPT 4 - Tricky one ===
+# Tests: switching the implant system, an item discount on the abutment,
+# fixing a speech-to-text mistake ("route canal"), and a follow-up question about 37.
+
+Actually make the implant on tooth forty six a Straumann implant, and the healing abutment with a twenty percent discount.
+Route canal on thirty seven as well.
+
+=== Finally ===
+# Click "I'm satisfied -> PDF". The PDF should show the tooth chart with 14, 25, 36, 37
+# and 46 coloured by stage, the timeline, and the discounts.

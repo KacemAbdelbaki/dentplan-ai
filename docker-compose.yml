@@ -1,0 +1,19 @@
+services:
+  dentplan:
+    image: kacemab/dentplan:latest
+    build: .
+    container_name: dentplan
+    restart: unless-stopped
+    # API keys and the app password are read from your local .env file (never committed, never in the image).
+    env_file: .env
+    environment:
+      HOST: 0.0.0.0
+      PORT: 3001
+    ports:
+      # Published on this computer only. Remove "127.0.0.1:" only if DENTPLAN_PASSWORD is set.
+      - "127.0.0.1:3001:3001"
+    volumes:
+      - dentplan-data:/data
+
+volumes:
+  dentplan-data:

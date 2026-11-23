@@ -1,0 +1,1458 @@
+[
+  {
+    "id": "restorative-single-use-hygiene-kit",
+    "name": "Single-use hygiene kit",
+    "aliases": [],
+    "category": "Restorative dentistry (treatment)",
+    "price": 3.19
+  },
+  {
+    "id": "restorative-core-build-up-of-a-molar-for-a-prosthetic-restoration",
+    "name": "Core build-up of a molar for a prosthetic restoration",
+    "aliases": [],
+    "category": "Restorative dentistry (treatment)",
+    "price": 23.89
+  },
+  {
+    "id": "restorative-core-build-up-of-an-anterior-tooth-for-a-prosthetic-restorat",
+    "name": "Core build-up of an anterior tooth for a prosthetic restoration",
+    "aliases": [],
+    "category": "Restorative dentistry (treatment)",
+    "price": 30.86
+  },
+  {
+    "id": "restorative-additional-glass-fibre-post",
+    "name": "Additional glass-fibre post",
+    "aliases": [],
+    "category": "Restorative dentistry (treatment)",
+    "price": 8.36
+  },
+  {
+    "id": "restorative-internal-tooth-bleaching",
+    "name": "Internal tooth bleaching",
+    "aliases": [],
+    "category": "Restorative dentistry (treatment)",
+    "price": 34.85
+  },
+  {
+    "id": "restorative-local-anaesthesia",
+    "name": "Local anaesthesia",
+    "aliases": [],
+    "category": "Restorative dentistry (treatment)",
+    "price": 4.18
+  },
+  {
+    "id": "restorative-removal-of-a-metal-crown",
+    "name": "Removal of a metal crown",
+    "aliases": [],
+    "category": "Restorative dentistry (treatment)",
+    "price": 6.17
+  },
+  {
+    "id": "restorative-removal-of-a-metal-ceramic-cast-crown",
+    "name": "Removal of a metal-ceramic / cast crown",
+    "aliases": [],
+    "category": "Restorative dentistry (treatment)",
+    "price": 8.56
+  },
+  {
+    "id": "restorative-rubber-dam-placement",
+    "name": "Rubber dam placement",
+    "aliases": [],
+    "category": "Restorative dentistry (treatment)",
+    "price": 4.18
+  },
+  {
+    "id": "restorative-placement-of-devitalising-paste",
+    "name": "Placement of devitalising paste",
+    "aliases": [],
+    "category": "Restorative dentistry (treatment)",
+    "price": 12.35
+  },
+  {
+    "id": "restorative-fluoride-varnish-application-1-tooth",
+    "name": "Fluoride varnish application, 1 tooth",
+    "aliases": [],
+    "category": "Restorative dentistry (treatment)",
+    "price": 4.18
+  },
+  {
+    "id": "restorative-fluoride-varnish-application-1-segment-6-teeth",
+    "name": "Fluoride varnish application, 1 segment (6 teeth)",
+    "aliases": [],
+    "category": "Restorative dentistry (treatment)",
+    "price": 8.36
+  },
+  {
+    "id": "restorative-extended-consultation",
+    "name": "Extended consultation",
+    "aliases": [],
+    "category": "Restorative dentistry (treatment)",
+    "price": 9.36
+  },
+  {
+    "id": "restorative-dental-radiograph",
+    "name": "Dental radiograph",
+    "aliases": [],
+    "category": "Restorative dentistry (treatment)",
+    "price": 4.18
+  },
+  {
+    "id": "restorative-restoration-of-a-molar-1-surface",
+    "name": "Restoration of a molar, 1 surface",
+    "aliases": [],
+    "category": "Restorative dentistry (treatment)",
+    "price": 29.87
+  },
+  {
+    "id": "restorative-restoration-of-a-single-surface-molar",
+    "name": "Restoration of a single-surface molar",
+    "aliases": [],
+    "category": "Restorative dentistry (treatment)",
+    "price": 39.03
+  },
+  {
+    "id": "restorative-restoration-of-a-two-surface-molar",
+    "name": "Restoration of a two-surface molar",
+    "aliases": [],
+    "category": "Restorative dentistry (treatment)",
+    "price": 49.38
+  },
+  {
+    "id": "restorative-restoration-of-an-anterior-tooth-1-surface",
+    "name": "Restoration of an anterior tooth, 1 surface",
+    "aliases": [],
+    "category": "Restorative dentistry (treatment)",
+    "price": 34.85
+  },
+  {
+    "id": "restorative-restoration-of-a-single-surface-anterior-tooth",
+    "name": "Restoration of a single-surface anterior tooth",
+    "aliases": [],
+    "category": "Restorative dentistry (treatment)",
+    "price": 45.2
+  },
+  {
+    "id": "restorative-two-surface-restoration-of-an-anterior-tooth",
+    "name": "Two-surface restoration of an anterior tooth",
+    "aliases": [],
+    "category": "Restorative dentistry (treatment)",
+    "price": 57.74
+  },
+  {
+    "id": "restorative-glass-fibre-post-cementation",
+    "name": "Glass-fibre post cementation",
+    "aliases": [],
+    "category": "Restorative dentistry (treatment)",
+    "price": 12.35
+  },
+  {
+    "id": "restorative-core-build-up-for-a-prosthetic-restoration-with-a-deep-subgi",
+    "name": "Core build-up for a prosthetic restoration with a deep subgingival defect",
+    "aliases": [],
+    "category": "Restorative dentistry (treatment)",
+    "price": 30.86
+  },
+  {
+    "id": "restorative-additional-local-anaesthetic-cartridge",
+    "name": "Additional local anaesthetic cartridge",
+    "aliases": [],
+    "category": "Restorative dentistry (treatment)",
+    "price": 2.19
+  },
+  {
+    "id": "restorative-temporary-build-up",
+    "name": "Temporary build-up",
+    "aliases": [],
+    "category": "Restorative dentistry (treatment)",
+    "price": 10.35
+  },
+  {
+    "id": "restorative-aesthetic-restoration",
+    "name": "Aesthetic restoration",
+    "aliases": [],
+    "category": "Restorative dentistry (treatment)",
+    "price": 67.7
+  },
+  {
+    "id": "restorative-bonding-of-onlay-bar",
+    "name": "Bonding of onlay + bar",
+    "aliases": [],
+    "category": "Restorative dentistry (treatment)",
+    "price": 16.53
+  },
+  {
+    "id": "restorative-clinical-photo-documentation",
+    "name": "Clinical photo documentation",
+    "aliases": [],
+    "category": "Restorative dentistry (treatment)",
+    "price": 4.18
+  },
+  {
+    "id": "restorative-additional-reinforcement-of-tooth-walls-with-ever-x-composit",
+    "name": "Additional reinforcement of tooth walls with Ever X composite",
+    "aliases": [],
+    "category": "Restorative dentistry (treatment)",
+    "price": 13.34
+  },
+  {
+    "id": "restorative-complex-aesthetic-restoration",
+    "name": "Complex aesthetic restoration",
+    "aliases": [],
+    "category": "Restorative dentistry (treatment)",
+    "price": 92.39
+  },
+  {
+    "id": "restorative-root-canal-disobturation",
+    "name": "Root canal disobturation",
+    "aliases": [],
+    "category": "Restorative dentistry (treatment)",
+    "price": 47.19
+  },
+  {
+    "id": "restorative-pre-operative-professional-hygiene",
+    "name": "Pre-operative professional hygiene",
+    "aliases": [],
+    "category": "Restorative dentistry (treatment)",
+    "price": 14.34
+  },
+  {
+    "id": "restorative-polishing-of-a-restoration-placed-elsewhere",
+    "name": "Polishing of a restoration placed elsewhere",
+    "aliases": [],
+    "category": "Restorative dentistry (treatment)",
+    "price": 11.95
+  },
+  {
+    "id": "restorative-biomodel-fabrication-laboratory-fee",
+    "name": "Biomodel fabrication (laboratory fee)",
+    "aliases": [],
+    "category": "Restorative dentistry (treatment)",
+    "price": 35.04
+  },
+  {
+    "id": "periodontics-periodontal-consultation-and-initial-periodontal-charting",
+    "name": "Periodontal consultation and initial periodontal charting",
+    "aliases": [],
+    "category": "Periodontics",
+    "price": 16.53
+  },
+  {
+    "id": "periodontics-single-use-periodontal-kit",
+    "name": "Single-use periodontal kit",
+    "aliases": [],
+    "category": "Periodontics",
+    "price": 3.19
+  },
+  {
+    "id": "periodontics-professional-hygiene",
+    "name": "Professional hygiene",
+    "aliases": [],
+    "category": "Periodontics",
+    "price": 41.02
+  },
+  {
+    "id": "periodontics-partial-professional-hygiene",
+    "name": "Partial professional hygiene",
+    "aliases": [],
+    "category": "Periodontics",
+    "price": 22.7
+  },
+  {
+    "id": "periodontics-removal-of-dental-deposits-around-one-tooth",
+    "name": "Removal of dental deposits around one tooth",
+    "aliases": [],
+    "category": "Periodontics",
+    "price": 4.18
+  },
+  {
+    "id": "periodontics-splinting-of-one-tooth",
+    "name": "Splinting of one tooth",
+    "aliases": [],
+    "category": "Periodontics",
+    "price": 7.17
+  },
+  {
+    "id": "periodontics-splinting-of-a-mobile-tooth-with-composite",
+    "name": "Splinting of a mobile tooth with composite",
+    "aliases": [],
+    "category": "Periodontics",
+    "price": 9.36
+  },
+  {
+    "id": "periodontics-local-anaesthesia",
+    "name": "Local anaesthesia",
+    "aliases": [],
+    "category": "Periodontics",
+    "price": 4.18
+  },
+  {
+    "id": "periodontics-additional-local-anaesthetic-cartridge",
+    "name": "Additional local anaesthetic cartridge",
+    "aliases": [],
+    "category": "Periodontics",
+    "price": 2.19
+  },
+  {
+    "id": "periodontics-excision-of-overgrown-gingival-tissue",
+    "name": "Excision of overgrown gingival tissue",
+    "aliases": [],
+    "category": "Periodontics",
+    "price": 7.17
+  },
+  {
+    "id": "periodontics-scaling",
+    "name": "Scaling",
+    "aliases": [],
+    "category": "Periodontics",
+    "price": 162.08
+  },
+  {
+    "id": "periodontics-repeat-curettage",
+    "name": "Repeat curettage",
+    "aliases": [],
+    "category": "Periodontics",
+    "price": 22.7
+  },
+  {
+    "id": "periodontics-soft-tissue-augmentation-at-implant-placement-or-second-stag",
+    "name": "Soft-tissue augmentation (at implant placement or second-stage surgery)",
+    "aliases": [],
+    "category": "Periodontics",
+    "price": 140
+  },
+  {
+    "id": "periodontics-vestibuloplasty-3-6-teeth",
+    "name": "Vestibuloplasty (3–6 teeth)",
+    "aliases": [],
+    "category": "Periodontics",
+    "price": 260
+  },
+  {
+    "id": "periodontics-treatment-of-a-single-gingival-recession",
+    "name": "Treatment of a single gingival recession",
+    "aliases": [],
+    "category": "Periodontics",
+    "price": 210
+  },
+  {
+    "id": "periodontics-treatment-of-multiple-gingival-recessions-3-6-teeth",
+    "name": "Treatment of multiple gingival recessions (3–6 teeth)",
+    "aliases": [],
+    "category": "Periodontics",
+    "price": 340
+  },
+  {
+    "id": "periodontics-follow-up-periodontal-charting",
+    "name": "Follow-up periodontal charting",
+    "aliases": [],
+    "category": "Periodontics",
+    "price": 13.34
+  },
+  {
+    "id": "periodontics-scaling-and-root-planing-srp-one-tooth",
+    "name": "Scaling and root planing (SRP), one tooth",
+    "aliases": [],
+    "category": "Periodontics",
+    "price": 6.17
+  },
+  {
+    "id": "periodontics-scaling-and-root-planing-srp-one-jaw",
+    "name": "Scaling and root planing (SRP), one jaw",
+    "aliases": [],
+    "category": "Periodontics",
+    "price": 78.05
+  },
+  {
+    "id": "periodontics-periodontal-follow-up-examination-with-charting-3-6-months-a",
+    "name": "Periodontal follow-up examination with charting, 3–6 months after treatment",
+    "aliases": [],
+    "category": "Periodontics",
+    "price": 12.35
+  },
+  {
+    "id": "periodontics-open-curettage-at-one-tooth-without-bone-grafting-material",
+    "name": "Open curettage at one tooth, without bone grafting material",
+    "aliases": [],
+    "category": "Periodontics",
+    "price": 14.34
+  },
+  {
+    "id": "periodontics-irrigation-of-periodontal-pocket-with-suppuration",
+    "name": "Irrigation of periodontal pocket with suppuration",
+    "aliases": [],
+    "category": "Periodontics",
+    "price": 2.19
+  },
+  {
+    "id": "periodontics-root-canal-disobturation",
+    "name": "Root canal disobturation",
+    "aliases": [],
+    "category": "Periodontics",
+    "price": 47.19
+  },
+  {
+    "id": "periodontics-partial-pre-operative-professional-hygiene",
+    "name": "Partial pre-operative professional hygiene",
+    "aliases": [],
+    "category": "Periodontics",
+    "price": 7.17
+  },
+  {
+    "id": "endodontics-pulp-amputation-with-mta-placement",
+    "name": "Pulp amputation with MTA placement",
+    "aliases": [],
+    "category": "Endodontics",
+    "price": 24.69
+  },
+  {
+    "id": "endodontics-removal-of-an-anchor-post",
+    "name": "Removal of an anchor post",
+    "aliases": [],
+    "category": "Endodontics",
+    "price": 14.34
+  },
+  {
+    "id": "endodontics-removal-of-a-metal-inlay",
+    "name": "Removal of a metal inlay",
+    "aliases": [],
+    "category": "Endodontics",
+    "price": 24.69
+  },
+  {
+    "id": "endodontics-endodontic-re-treatment-incisors-and-canines",
+    "name": "Endodontic re-treatment (incisors and canines)",
+    "aliases": [],
+    "category": "Endodontics",
+    "price": 69.69
+  },
+  {
+    "id": "endodontics-endodontic-re-treatment-premolars",
+    "name": "Endodontic re-treatment (premolars)",
+    "aliases": [],
+    "category": "Endodontics",
+    "price": 89.6
+  },
+  {
+    "id": "endodontics-endodontic-re-treatment-molars",
+    "name": "Endodontic re-treatment (molars)",
+    "aliases": [],
+    "category": "Endodontics",
+    "price": 109.51
+  },
+  {
+    "id": "endodontics-removal-of-a-separated-instrument-from-the-root-canal",
+    "name": "Removal of a separated instrument from the root canal",
+    "aliases": [],
+    "category": "Endodontics",
+    "price": 51.37
+  },
+  {
+    "id": "endodontics-perforation-repair-with-mta",
+    "name": "Perforation repair with MTA",
+    "aliases": [],
+    "category": "Endodontics",
+    "price": 20.51
+  },
+  {
+    "id": "endodontics-local-anaesthesia",
+    "name": "Local anaesthesia",
+    "aliases": [],
+    "category": "Endodontics",
+    "price": 4.18
+  },
+  {
+    "id": "endodontics-root-canal-treatment-anterior-teeth-incisors-and-canines",
+    "name": "Root canal treatment — anterior teeth (incisors and canines)",
+    "aliases": [],
+    "category": "Endodontics",
+    "price": 49.78
+  },
+  {
+    "id": "endodontics-root-canal-treatment-premolars",
+    "name": "Root canal treatment — premolars",
+    "aliases": [],
+    "category": "Endodontics",
+    "price": 69.69
+  },
+  {
+    "id": "endodontics-root-canal-treatment-molars",
+    "name": "Root canal treatment — molars",
+    "aliases": [],
+    "category": "Endodontics",
+    "price": 89.6
+  },
+  {
+    "id": "endodontics-placement-of-devitalising-paste",
+    "name": "Placement of devitalising paste",
+    "aliases": [],
+    "category": "Endodontics",
+    "price": 10.35
+  },
+  {
+    "id": "endodontics-root-canal-filling-with-calcium-based-paste",
+    "name": "Root canal filling with calcium-based paste",
+    "aliases": [],
+    "category": "Endodontics",
+    "price": 13.34
+  },
+  {
+    "id": "endodontics-mta-pulp-capping-for-an-exposed-pulp-horn",
+    "name": "MTA pulp capping for an exposed pulp horn",
+    "aliases": [],
+    "category": "Endodontics",
+    "price": 20.51
+  },
+  {
+    "id": "endodontics-tooth-revision",
+    "name": "Tooth revision",
+    "aliases": [],
+    "category": "Endodontics",
+    "price": 7.17
+  },
+  {
+    "id": "endodontics-root-canal-revision",
+    "name": "Root canal revision",
+    "aliases": [],
+    "category": "Endodontics",
+    "price": 10.35
+  },
+  {
+    "id": "endodontics-apexification-of-immature-roots",
+    "name": "Apexification of immature roots",
+    "aliases": [],
+    "category": "Endodontics",
+    "price": 67.7
+  },
+  {
+    "id": "endodontics-rubber-dam-placement",
+    "name": "Rubber dam placement",
+    "aliases": [],
+    "category": "Endodontics",
+    "price": 4.18
+  },
+  {
+    "id": "endodontics-single-use-hygiene-kit",
+    "name": "Single-use hygiene kit",
+    "aliases": [],
+    "category": "Endodontics",
+    "price": 3.19
+  },
+  {
+    "id": "endodontics-additional-local-anaesthetic-carpule",
+    "name": "Additional local anaesthetic carpule",
+    "aliases": [],
+    "category": "Endodontics",
+    "price": 2.19
+  },
+  {
+    "id": "endodontics-filling-of-one-root-canal-with-mta",
+    "name": "Filling of one root canal with MTA",
+    "aliases": [],
+    "category": "Endodontics",
+    "price": 10.35
+  },
+  {
+    "id": "endodontics-icon-treatment-for-one-tooth",
+    "name": "ICON treatment for one tooth",
+    "aliases": [],
+    "category": "Endodontics",
+    "price": 28.87
+  },
+  {
+    "id": "endodontics-complex-endodontic-treatment-with-bioceramic-material",
+    "name": "Complex endodontic treatment with bioceramic material",
+    "aliases": [],
+    "category": "Endodontics",
+    "price": 153.92
+  },
+  {
+    "id": "endodontics-root-canal-treatment-with-bioceramic-material-incisor",
+    "name": "Root canal treatment with bioceramic material (incisor)",
+    "aliases": [],
+    "category": "Endodontics",
+    "price": 88.21
+  },
+  {
+    "id": "surgery-socket-preservation-with-colacone-for-delayed-implant-placem",
+    "name": "Socket preservation with Colacone for delayed implant placement",
+    "aliases": [],
+    "category": "Surgery",
+    "price": 11.35
+  },
+  {
+    "id": "surgery-excision-of-the-operculum-over-a-wisdom-tooth",
+    "name": "Excision of the operculum over a wisdom tooth",
+    "aliases": [],
+    "category": "Surgery",
+    "price": 14.34
+  },
+  {
+    "id": "surgery-blood-collection-and-prf-membrane-preparation-before-surgery",
+    "name": "Blood collection and PRF membrane preparation before surgery",
+    "aliases": [],
+    "category": "Surgery",
+    "price": 12.35
+  },
+  {
+    "id": "surgery-blood-collection-and-prf-membrane-preparation-before-extract",
+    "name": "Blood collection and PRF membrane preparation before extraction (1–2 teeth)",
+    "aliases": [],
+    "category": "Surgery",
+    "price": 9.96
+  },
+  {
+    "id": "surgery-blood-collection-and-prf-membrane-preparation-before-extract-2",
+    "name": "Blood collection and PRF membrane preparation before extraction (3–4 teeth)",
+    "aliases": [],
+    "category": "Surgery",
+    "price": 10.35
+  },
+  {
+    "id": "surgery-gingival-recession-coverage-for-one-tooth",
+    "name": "Gingival recession coverage for one tooth",
+    "aliases": [],
+    "category": "Surgery",
+    "price": 160
+  },
+  {
+    "id": "surgery-conventional-tooth-extraction-with-socket-suturing-and-antim",
+    "name": "Conventional tooth extraction with socket suturing and antimicrobial sponge placement",
+    "aliases": [],
+    "category": "Surgery",
+    "price": 16.53
+  },
+  {
+    "id": "surgery-frenectomy",
+    "name": "Frenectomy",
+    "aliases": [],
+    "category": "Surgery",
+    "price": 41.02
+  },
+  {
+    "id": "surgery-incision-for-periostitis",
+    "name": "Incision for periostitis",
+    "aliases": [],
+    "category": "Surgery",
+    "price": 15.53
+  },
+  {
+    "id": "surgery-extraction-of-a-wisdom-tooth-grade-1-complexity-with-socket",
+    "name": "Extraction of a wisdom tooth (Grade 1 complexity), with socket suturing and antimicrobial sponge placement",
+    "aliases": [],
+    "category": "Surgery",
+    "price": 82.04
+  },
+  {
+    "id": "surgery-extraction-of-a-wisdom-tooth-grade-2-complexity",
+    "name": "Extraction of a wisdom tooth (Grade 2 complexity)",
+    "aliases": [],
+    "category": "Surgery",
+    "price": 102.54
+  },
+  {
+    "id": "surgery-complex-tooth-extraction-with-socket-suturing-and-antimicrob",
+    "name": "Complex tooth extraction with socket suturing and antimicrobial sponge placement",
+    "aliases": [],
+    "category": "Surgery",
+    "price": 20.51
+  },
+  {
+    "id": "surgery-extraction-of-a-wisdom-tooth-adjacent-to-anatomical-structur",
+    "name": "Extraction of a wisdom tooth adjacent to anatomical structures",
+    "aliases": [],
+    "category": "Surgery",
+    "price": 205.09
+  },
+  {
+    "id": "surgery-removal-of-a-retention-cyst",
+    "name": "Removal of a retention cyst",
+    "aliases": [],
+    "category": "Surgery",
+    "price": 37.04
+  },
+  {
+    "id": "surgery-removal-of-an-impacted-tooth",
+    "name": "Removal of an impacted tooth",
+    "aliases": [],
+    "category": "Surgery",
+    "price": 92.39
+  },
+  {
+    "id": "surgery-histopathological-examination",
+    "name": "Histopathological examination",
+    "aliases": [],
+    "category": "Surgery",
+    "price": 20.51
+  },
+  {
+    "id": "surgery-local-anaesthesia",
+    "name": "Local anaesthesia",
+    "aliases": [],
+    "category": "Surgery",
+    "price": 4.18
+  },
+  {
+    "id": "surgery-surgical-exposure-of-canines",
+    "name": "Surgical exposure of canines",
+    "aliases": [],
+    "category": "Surgery",
+    "price": 37.04
+  },
+  {
+    "id": "surgery-crown-lengthening",
+    "name": "Crown lengthening",
+    "aliases": [],
+    "category": "Surgery",
+    "price": 6.17
+  },
+  {
+    "id": "surgery-collagen-wedge-placement",
+    "name": "Collagen wedge placement",
+    "aliases": [],
+    "category": "Surgery",
+    "price": 10.35
+  },
+  {
+    "id": "surgery-single-use-hygiene-kit",
+    "name": "Single-use hygiene kit",
+    "aliases": [],
+    "category": "Surgery",
+    "price": 3.19
+  },
+  {
+    "id": "surgery-additional-local-anaesthetic-cartridge",
+    "name": "Additional local anaesthetic cartridge",
+    "aliases": [],
+    "category": "Surgery",
+    "price": 2.19
+  },
+  {
+    "id": "surgery-removal-of-wisdom-tooth-buds",
+    "name": "Removal of wisdom tooth buds",
+    "aliases": [],
+    "category": "Surgery",
+    "price": 92.39
+  },
+  {
+    "id": "surgery-fabrication-of-a-protective-palatal-splint",
+    "name": "Fabrication of a protective palatal splint",
+    "aliases": [],
+    "category": "Surgery",
+    "price": 24.69
+  },
+  {
+    "id": "surgery-excision-of-an-epulis",
+    "name": "Excision of an epulis",
+    "aliases": [],
+    "category": "Surgery",
+    "price": 86.22
+  },
+  {
+    "id": "surgery-retrograde-filling-of-one-root-canal",
+    "name": "Retrograde filling of one root canal",
+    "aliases": [],
+    "category": "Surgery",
+    "price": 49.38
+  },
+  {
+    "id": "surgery-membrane-placement",
+    "name": "Membrane placement",
+    "aliases": [],
+    "category": "Surgery",
+    "price": 120
+  },
+  {
+    "id": "surgery-implant-removal",
+    "name": "Implant removal",
+    "aliases": [],
+    "category": "Surgery",
+    "price": 60
+  },
+  {
+    "id": "surgery-apical-microsurgery-of-an-anterior-tooth-with-retrograde-mta",
+    "name": "Apical microsurgery of an anterior tooth with retrograde MTA filling",
+    "aliases": [],
+    "category": "Surgery",
+    "price": 310
+  },
+  {
+    "id": "surgery-apical-microsurgery-of-a-posterior-tooth-with-retrograde-mta",
+    "name": "Apical microsurgery of a posterior tooth with retrograde MTA filling",
+    "aliases": [],
+    "category": "Surgery",
+    "price": 340
+  },
+  {
+    "id": "surgery-sterilisation-pack",
+    "name": "Sterilisation pack",
+    "aliases": [],
+    "category": "Surgery",
+    "price": 61.73
+  },
+  {
+    "id": "surgery-tooth-extraction-and-socket-preservation",
+    "name": "Tooth extraction and socket preservation",
+    "aliases": [],
+    "category": "Surgery",
+    "price": 60
+  },
+  {
+    "id": "surgery-wisdom-tooth-extraction-grade-1-difficulty-with-socket-sutur",
+    "name": "Wisdom tooth extraction, Grade 1 difficulty, with socket suturing and antimicrobial sponge placement",
+    "aliases": [],
+    "category": "Surgery (Dr. R.A.)",
+    "price": 159.29
+  },
+  {
+    "id": "surgery-wisdom-tooth-extraction-grade-2-difficulty-with-socket-sutur",
+    "name": "Wisdom tooth extraction, Grade 2 difficulty, with socket suturing and antimicrobial sponge placement",
+    "aliases": [],
+    "category": "Surgery (Dr. R.A.)",
+    "price": 199.12
+  },
+  {
+    "id": "implantology-surgical-guide-for-1-2-implants",
+    "name": "Surgical guide for 1–2 implants",
+    "aliases": [],
+    "category": "Implantology",
+    "price": 80
+  },
+  {
+    "id": "implantology-surgical-guide-for-3-4-implants",
+    "name": "Surgical guide for 3–4 implants",
+    "aliases": [],
+    "category": "Implantology",
+    "price": 120
+  },
+  {
+    "id": "implantology-surgical-guide-for-5-6-implants",
+    "name": "Surgical guide for 5–6 implants",
+    "aliases": [],
+    "category": "Implantology",
+    "price": 160
+  },
+  {
+    "id": "implantology-sealing-the-screw-access-channel-in-an-implant-crown",
+    "name": "Sealing the screw access channel in an implant crown",
+    "aliases": [],
+    "category": "Implantology",
+    "price": 14.34
+  },
+  {
+    "id": "implantology-impressions-of-implants-for-temporary-crowns",
+    "name": "Impressions of implants for temporary crowns",
+    "aliases": [],
+    "category": "Implantology",
+    "price": 10.35
+  },
+  {
+    "id": "implantology-impressions-of-implants-for-permanent-crowns",
+    "name": "Impressions of implants for permanent crowns",
+    "aliases": [],
+    "category": "Implantology",
+    "price": 18.52
+  },
+  {
+    "id": "implantology-zirconia-crown-on-osstem-implant",
+    "name": "Zirconia crown on Osstem implant",
+    "aliases": [],
+    "category": "Implantology",
+    "price": 360
+  },
+  {
+    "id": "implantology-zirconia-crown-on-straumann-implant",
+    "name": "Zirconia crown on Straumann implant",
+    "aliases": [],
+    "category": "Implantology",
+    "price": 450
+  },
+  {
+    "id": "implantology-osstem-implant-placement-korea",
+    "name": "Osstem implant placement (Korea)",
+    "aliases": [],
+    "category": "Implantology",
+    "price": 460
+  },
+  {
+    "id": "implantology-straumann-blt-implant-placement-switzerland",
+    "name": "Straumann BLT implant placement (Switzerland)",
+    "aliases": [],
+    "category": "Implantology",
+    "price": 830
+  },
+  {
+    "id": "implantology-straumann-slaactive-implant-placement",
+    "name": "Straumann SLAactive implant placement",
+    "aliases": [],
+    "category": "Implantology",
+    "price": 830
+  },
+  {
+    "id": "implantology-healing-abutment-placement",
+    "name": "Healing abutment placement",
+    "aliases": [],
+    "category": "Implantology",
+    "price": 65
+  },
+  {
+    "id": "implantology-gingival-soft-tissue-grafting-around-one-tooth",
+    "name": "Gingival (soft-tissue) grafting around one tooth",
+    "aliases": [],
+    "category": "Implantology",
+    "price": 65
+  },
+  {
+    "id": "implantology-bone-grafting-during-placement-of-one-implant",
+    "name": "Bone grafting during placement of one implant",
+    "aliases": [],
+    "category": "Implantology",
+    "price": 260
+  },
+  {
+    "id": "implantology-bone-grafting-during-placement-of-multiple-implants",
+    "name": "Bone grafting during placement of multiple implants",
+    "aliases": [],
+    "category": "Implantology",
+    "price": 520
+  },
+  {
+    "id": "implantology-pre-implant-bone-grafting-at-one-implant-site",
+    "name": "Pre-implant bone grafting at one implant site",
+    "aliases": [],
+    "category": "Implantology",
+    "price": 420
+  },
+  {
+    "id": "implantology-pre-implant-bone-grafting-at-multiple-implant-sites",
+    "name": "Pre-implant bone grafting at multiple implant sites",
+    "aliases": [],
+    "category": "Implantology",
+    "price": 830
+  },
+  {
+    "id": "implantology-sinus-lift-before-implant-placement-one-implant-site",
+    "name": "Sinus lift before implant placement, one implant site",
+    "aliases": [],
+    "category": "Implantology",
+    "price": 530
+  },
+  {
+    "id": "implantology-sinus-lift-before-implant-placement-two-implant-sites",
+    "name": "Sinus lift before implant placement, two implant sites",
+    "aliases": [],
+    "category": "Implantology",
+    "price": 830
+  },
+  {
+    "id": "implantology-sinus-lift-during-implant-placement-one-implant",
+    "name": "Sinus lift during implant placement, one implant",
+    "aliases": [],
+    "category": "Implantology",
+    "price": 330
+  },
+  {
+    "id": "implantology-sinus-lift-during-implant-placement-2-3-implants",
+    "name": "Sinus lift during implant placement, 2–3 implants",
+    "aliases": [],
+    "category": "Implantology",
+    "price": 630
+  },
+  {
+    "id": "implantology-bone-grafting-with-lamina-for-2-3-teeth",
+    "name": "Bone grafting with lamina for 2–3 teeth",
+    "aliases": [],
+    "category": "Implantology",
+    "price": 1240
+  },
+  {
+    "id": "implantology-bone-grafting-with-lamina-for-1-2-teeth",
+    "name": "Bone grafting with lamina for 1–2 teeth",
+    "aliases": [],
+    "category": "Implantology",
+    "price": 830
+  },
+  {
+    "id": "implantology-closed-sinus-lift",
+    "name": "Closed sinus lift",
+    "aliases": [],
+    "category": "Implantology",
+    "price": 160
+  },
+  {
+    "id": "implantology-temporary-crown-on-implant",
+    "name": "Temporary crown on implant",
+    "aliases": [],
+    "category": "Implantology",
+    "price": 51.37
+  },
+  {
+    "id": "implantology-metal-acrylic-prosthesis-on-implants",
+    "name": "Metal-acrylic prosthesis on implants",
+    "aliases": [],
+    "category": "Implantology",
+    "price": 440
+  },
+  {
+    "id": "implantology-acrylic-denture-on-locator-attachments",
+    "name": "Acrylic denture on Locator attachments",
+    "aliases": [],
+    "category": "Implantology",
+    "price": 10.95
+  },
+  {
+    "id": "implantology-gingival-zenith-correction-for-one-tooth",
+    "name": "Gingival zenith correction for one tooth",
+    "aliases": [],
+    "category": "Implantology",
+    "price": 30
+  },
+  {
+    "id": "implantology-temporary-crown-on-abutment-placed-during-surgery",
+    "name": "Temporary crown on abutment placed during surgery",
+    "aliases": [],
+    "category": "Implantology",
+    "price": 80
+  },
+  {
+    "id": "implantology-custom-healing-abutment-placement",
+    "name": "Custom healing abutment placement",
+    "aliases": [],
+    "category": "Implantology",
+    "price": 80
+  },
+  {
+    "id": "implantology-gingival-soft-tissue-grafting-around-an-implant",
+    "name": "Gingival (soft-tissue) grafting around an implant",
+    "aliases": [],
+    "category": "Implantology",
+    "price": 65
+  },
+  {
+    "id": "implantology-single-use-surgical-kit",
+    "name": "Single-use surgical kit",
+    "aliases": [],
+    "category": "Implantology",
+    "price": 6.17
+  },
+  {
+    "id": "implantology-additional-local-anaesthetic-cartridge",
+    "name": "Additional local anaesthetic cartridge",
+    "aliases": [],
+    "category": "Implantology",
+    "price": 2.19
+  },
+  {
+    "id": "implantology-mini-implant-placement",
+    "name": "Mini-implant placement",
+    "aliases": [],
+    "category": "Implantology",
+    "price": 35
+  },
+  {
+    "id": "implantology-multi-unit-abutment-placement",
+    "name": "Multi-unit abutment placement",
+    "aliases": [],
+    "category": "Implantology",
+    "price": 60
+  },
+  {
+    "id": "implantology-temporary-prosthesis-on-abutments",
+    "name": "Temporary prosthesis on abutments",
+    "aliases": [],
+    "category": "Implantology",
+    "price": 230
+  },
+  {
+    "id": "implantology-zirconia-prosthesis-on-all-on-4-implants",
+    "name": "Zirconia prosthesis on All-on-4 implants",
+    "aliases": [],
+    "category": "Implantology",
+    "price": 2680
+  },
+  {
+    "id": "implantology-zirconia-prosthesis-on-all-on-6-implants",
+    "name": "Zirconia prosthesis on All-on-6 implants",
+    "aliases": [],
+    "category": "Implantology",
+    "price": 2890
+  },
+  {
+    "id": "implantology-all-on-4-with-osstem-implants",
+    "name": "All-on-4 with Osstem implants",
+    "aliases": [],
+    "category": "Implantology",
+    "price": 3920
+  },
+  {
+    "id": "implantology-all-on-4-with-megagen-implants",
+    "name": "All-on-4 with Megagen implants",
+    "aliases": [],
+    "category": "Implantology",
+    "price": 3500
+  },
+  {
+    "id": "implantology-all-on-6-with-megagen-implants",
+    "name": "All-on-6 with Megagen implants",
+    "aliases": [],
+    "category": "Implantology",
+    "price": 4500
+  },
+  {
+    "id": "implantology-all-on-6-with-osstem-implants",
+    "name": "All-on-6 with Osstem implants",
+    "aliases": [],
+    "category": "Implantology",
+    "price": 4330
+  },
+  {
+    "id": "implantology-all-on-4-temporary-prosthesis-immediate-loading",
+    "name": "All-on-4 temporary prosthesis (immediate loading)",
+    "aliases": [],
+    "category": "Implantology",
+    "price": 830
+  },
+  {
+    "id": "implantology-all-on-4-temporary-prosthesis-immediate-loading-with-bar",
+    "name": "All-on-4 temporary prosthesis (immediate loading with bar)",
+    "aliases": [],
+    "category": "Implantology",
+    "price": 980
+  },
+  {
+    "id": "implantology-all-on-6-temporary-prosthesis-immediate-loading",
+    "name": "All-on-6 temporary prosthesis (immediate loading)",
+    "aliases": [],
+    "category": "Implantology",
+    "price": 930
+  },
+  {
+    "id": "implantology-all-on-6-with-straumann-blx-implants",
+    "name": "All-on-6 with Straumann BLX implants",
+    "aliases": [],
+    "category": "Implantology",
+    "price": 6180
+  },
+  {
+    "id": "implantology-idr-implant-placement-in-the-central-incisor-region-with-meg",
+    "name": "IDR implant placement in the central incisor region with Megagen Korean implant system (guide, implant, bone grafting, gingival grafting and temporary crown)",
+    "aliases": [],
+    "category": "Implantology",
+    "price": 1240
+  },
+  {
+    "id": "implantology-bone-grafting-at-the-time-of-tooth-extraction",
+    "name": "Bone grafting at the time of tooth extraction",
+    "aliases": [],
+    "category": "Implantology",
+    "price": 90
+  },
+  {
+    "id": "implantology-megagen-anyone-implant-placement",
+    "name": "Megagen AnyOne implant placement",
+    "aliases": [],
+    "category": "Implantology",
+    "price": 470
+  },
+  {
+    "id": "implantology-megagen-st-implant-placement",
+    "name": "Megagen ST implant placement",
+    "aliases": [],
+    "category": "Implantology",
+    "price": 360
+  },
+  {
+    "id": "implantology-megagen-implant-placement",
+    "name": "Megagen implant placement",
+    "aliases": [],
+    "category": "Implantology",
+    "price": 570
+  },
+  {
+    "id": "implantology-megagen-anyridge-implant-placement",
+    "name": "Megagen AnyRidge implant placement",
+    "aliases": [],
+    "category": "Implantology",
+    "price": 570
+  },
+  {
+    "id": "implantology-zirconia-implant-placement",
+    "name": "Zirconia implant placement",
+    "aliases": [],
+    "category": "Implantology",
+    "price": 1140
+  },
+  {
+    "id": "implantology-all-on-6-fp1-with-megagen-implants",
+    "name": "All-on-6 FP1 with Megagen implants",
+    "aliases": [],
+    "category": "Implantology",
+    "price": 4950
+  },
+  {
+    "id": "implantology-all-on-6-fp1-with-straumann-blx-implants",
+    "name": "All-on-6 FP1 with Straumann BLX implants",
+    "aliases": [],
+    "category": "Implantology",
+    "price": 6800
+  },
+  {
+    "id": "implantology-nobel-implant-placement",
+    "name": "Nobel implant placement",
+    "aliases": [],
+    "category": "Implantology",
+    "price": 830
+  },
+  {
+    "id": "implantology-osstem-soi-implant-placement",
+    "name": "Osstem SOI implant placement",
+    "aliases": [],
+    "category": "Implantology",
+    "price": 520
+  },
+  {
+    "id": "implantology-all-on-6-with-nobel-implants",
+    "name": "All-on-6 with Nobel implants",
+    "aliases": [],
+    "category": "Implantology",
+    "price": 7000
+  },
+  {
+    "id": "implantology-all-on-4-with-nobel-implants",
+    "name": "All-on-4 with Nobel implants",
+    "aliases": [],
+    "category": "Implantology",
+    "price": 5500
+  },
+  {
+    "id": "implantology-idr-implant-placement-in-the-central-incisor-region-with-nob",
+    "name": "IDR implant placement in the central incisor region with Nobel Swiss implant system (guide, implant, bone grafting, gingival grafting and temporary crown)",
+    "aliases": [],
+    "category": "Implantology",
+    "price": 1750
+  },
+  {
+    "id": "implantology-multi-unit-abutment-cost",
+    "name": "Multi-unit abutment cost",
+    "aliases": [],
+    "category": "Implantology",
+    "price": 110
+  },
+  {
+    "id": "implantology-sinus-lift-before-placement-of-3-implants",
+    "name": "Sinus lift before placement of 3 implants",
+    "aliases": [],
+    "category": "Implantology",
+    "price": 1030
+  },
+  {
+    "id": "implantology-sinus-lift-before-placement-of-4-implants",
+    "name": "Sinus lift before placement of 4 implants",
+    "aliases": [],
+    "category": "Implantology",
+    "price": 1230
+  },
+  {
+    "id": "implantology-sinus-lift-during-placement-of-4-implants",
+    "name": "Sinus lift during placement of 4 implants",
+    "aliases": [],
+    "category": "Implantology",
+    "price": 830
+  },
+  {
+    "id": "implantology-bone-grafting-with-lamina-during-implant-placement-for-1-2-t",
+    "name": "Bone grafting with lamina during implant placement for 1–2 teeth",
+    "aliases": [],
+    "category": "Implantology",
+    "price": 400
+  },
+  {
+    "id": "implantology-bone-grafting-with-lamina-during-implant-placement-for-3-4-t",
+    "name": "Bone grafting with lamina during implant placement for 3–4 teeth",
+    "aliases": [],
+    "category": "Implantology",
+    "price": 600
+  },
+  {
+    "id": "implant-fabrication-of-a-custom-model",
+    "name": "Fabrication of a custom model",
+    "aliases": [],
+    "category": "Implant prosthetics",
+    "price": 20.51
+  },
+  {
+    "id": "implant-ml-zirconia-crown-on-osstem-implant",
+    "name": "ML zirconia crown on Osstem implant",
+    "aliases": [],
+    "category": "Implant prosthetics",
+    "price": 360
+  },
+  {
+    "id": "implant-ml-zirconia-crown-on-straumann-implant",
+    "name": "ML zirconia crown on Straumann implant",
+    "aliases": [],
+    "category": "Implant prosthetics",
+    "price": 450
+  },
+  {
+    "id": "implant-ml-zirconia-crown-on-megagen-implant",
+    "name": "ML zirconia crown on Megagen implant",
+    "aliases": [],
+    "category": "Implant prosthetics",
+    "price": 360
+  },
+  {
+    "id": "implant-temporary-crown-on-implant",
+    "name": "Temporary crown on implant",
+    "aliases": [],
+    "category": "Implant prosthetics",
+    "price": 50.97
+  },
+  {
+    "id": "implant-immediate-temporary-crown-on-abutment-at-surgery",
+    "name": "Immediate temporary crown on abutment (at surgery)",
+    "aliases": [],
+    "category": "Implant prosthetics",
+    "price": 80
+  },
+  {
+    "id": "implant-zirconia-custom-abutment-placement",
+    "name": "Zirconia custom abutment placement",
+    "aliases": [],
+    "category": "Implant prosthetics",
+    "price": 70
+  },
+  {
+    "id": "implant-titanium-custom-abutment",
+    "name": "Titanium custom abutment",
+    "aliases": [],
+    "category": "Implant prosthetics",
+    "price": 70
+  },
+  {
+    "id": "implant-temporary-composite-crown-on-implant",
+    "name": "Temporary composite crown on implant",
+    "aliases": [],
+    "category": "Implant prosthetics",
+    "price": 37.04
+  },
+  {
+    "id": "implant-osstem-abutment-placement",
+    "name": "Osstem abutment placement",
+    "aliases": [],
+    "category": "Implant prosthetics",
+    "price": 30.76
+  },
+  {
+    "id": "implant-megagen-abutment-placement",
+    "name": "Megagen abutment placement",
+    "aliases": [],
+    "category": "Implant prosthetics",
+    "price": 41.02
+  },
+  {
+    "id": "implant-straumann-abutment-placement",
+    "name": "Straumann abutment placement",
+    "aliases": [],
+    "category": "Implant prosthetics",
+    "price": 61.53
+  },
+  {
+    "id": "implant-st-zirconia-crown-on-megagen-implant",
+    "name": "ST zirconia crown on Megagen implant",
+    "aliases": [],
+    "category": "Implant prosthetics",
+    "price": 310
+  },
+  {
+    "id": "implant-st-zirconia-crown-on-straumann-implant",
+    "name": "ST zirconia crown on Straumann implant",
+    "aliases": [],
+    "category": "Implant prosthetics",
+    "price": 340
+  },
+  {
+    "id": "implant-st-zirconia-crown-on-osstem-implant",
+    "name": "ST zirconia crown on Osstem implant",
+    "aliases": [],
+    "category": "Implant prosthetics",
+    "price": 310
+  },
+  {
+    "id": "implant-neodent-abutment-placement",
+    "name": "Neodent abutment placement",
+    "aliases": [],
+    "category": "Implant prosthetics",
+    "price": 41.02
+  },
+  {
+    "id": "implant-ml-zirconia-crown-on-nobel-implant",
+    "name": "ML zirconia crown on Nobel implant",
+    "aliases": [],
+    "category": "Implant prosthetics",
+    "price": 520
+  },
+  {
+    "id": "implant-implant-scan-for-crown-fabrication",
+    "name": "Implant scan for crown fabrication",
+    "aliases": [],
+    "category": "Implant prosthetics",
+    "price": 10.35
+  },
+  {
+    "id": "implant-nobel-abutment-placement",
+    "name": "Nobel abutment placement",
+    "aliases": [],
+    "category": "Implant prosthetics",
+    "price": 110
+  },
+  {
+    "id": "implant-immediate-temporary-crown-on-nobel-abutment-at-surgery",
+    "name": "Immediate temporary crown on Nobel abutment (at surgery)",
+    "aliases": [],
+    "category": "Implant prosthetics",
+    "price": 150
+  },
+  {
+    "id": "implant-immediate-temporary-crown-on-straumann-abutment-at-surgery",
+    "name": "Immediate temporary crown on Straumann abutment (at surgery)",
+    "aliases": [],
+    "category": "Implant prosthetics",
+    "price": 150
+  },
+  {
+    "id": "sedation-sedation-first-hour",
+    "name": "Sedation – first hour",
+    "aliases": [],
+    "category": "Sedation with anaesthesiologist – adults",
+    "price": 179.2
+  },
+  {
+    "id": "sedation-sedation-each-additional-hour",
+    "name": "Sedation – each additional hour",
+    "aliases": [],
+    "category": "Sedation with anaesthesiologist – adults",
+    "price": 79.65
+  },
+  {
+    "id": "sedation-sedation-each-additional-30-minutes",
+    "name": "Sedation – each additional 30 minutes",
+    "aliases": [],
+    "category": "Sedation with anaesthesiologist – adults",
+    "price": 39.82
+  },
+  {
+    "id": "sedation-anaesthesiologist-support-first-hour",
+    "name": "Anaesthesiologist support – first hour",
+    "aliases": [],
+    "category": "Sedation with anaesthesiologist – adults",
+    "price": 99.56
+  },
+  {
+    "id": "sedation-anaesthesiologist-support-each-additional-hour",
+    "name": "Anaesthesiologist support – each additional hour",
+    "aliases": [],
+    "category": "Sedation with anaesthesiologist – adults",
+    "price": 59.73
+  }
+]

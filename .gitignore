@@ -1,0 +1,17 @@
+# Dependencies & build output
+node_modules
+dist
+
+# Secrets: API keys live only in your local .env
+.env
+.env.*
+!.env.example
+
+# Local data and generated files
+data
+sample-plan.pdf
+test-output
+
+# Third-party source material (not redistributed) and scratch scripts
+provided resources/
+scripts/_*
