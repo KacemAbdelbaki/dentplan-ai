@@ -21,7 +21,7 @@ FROM node:24-alpine AS runtime
 LABEL org.opencontainers.image.title="DentPlan" \
       org.opencontainers.image.description="Voice-first AI dental treatment planner: dictate a plan, get staged visits, exact prices and a patient-ready PDF." \
       org.opencontainers.image.source="https://github.com/KacemAbdelbaki/dentplan-ai" \
-      org.opencontainers.image.licenses="UNLICENSED"
+      org.opencontainers.image.licenses="MIT"
 
 ENV NODE_ENV=production \
     HOST=0.0.0.0 \

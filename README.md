@@ -10,6 +10,7 @@
 ![React](https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=black)
 ![Node](https://img.shields.io/badge/Node-%E2%89%A522-339933?logo=nodedotjs&logoColor=white)
 ![Gemini](https://img.shields.io/badge/AI-Google%20Gemini-8E75B2?logo=googlegemini&logoColor=white)
+[![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 
 [Quick start](#-quick-start-docker) · [Features](#-features) · [How it works](#-how-it-works) · [Security](#-security--privacy) · [Architecture](docs/ARCHITECTURE.md)
 
@@ -173,3 +174,7 @@ docs/     Architecture notes
 ### Tech stack
 
 React 19 · Vite · TypeScript · Express 5 · zod · @react-pdf/renderer · Google Gen AI SDK · Groq SDK · Vitest · Docker
+
+## 📄 License
+
+[MIT](LICENSE) © 2026 Kacem Abdelbaki
